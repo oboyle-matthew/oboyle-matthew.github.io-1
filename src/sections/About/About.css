@@ -16,14 +16,14 @@
 
 #about-box {
     background-color: white;
-    margin-left: 20px;
+    margin-left: 120px;
     margin-right: 20px;
     height: 400px;
     width: 50%;
 }
 
 #pic {
-    margin-left: 5%;
+    margin-left: 10%;
     width: 25%;
     height: 400px;
 }

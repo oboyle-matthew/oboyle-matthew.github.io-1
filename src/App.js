@@ -4,16 +4,18 @@ import About from './sections/About/About';
 import Team from './sections/Team/Team';
 import Values from './sections/Values/Values';
 import Organizations from './sections/Organizations/Organizations';
+import Quotes from './sections/Quotes/Quotes';
 import './App.js';
 
 function App() {
   return (
     <div>
-      <Title/>
+        <Title/>
         <About/>
         <Team/>
         <Values/>
         <Organizations/>
+        <Quotes/>
     </div>
   );
 }

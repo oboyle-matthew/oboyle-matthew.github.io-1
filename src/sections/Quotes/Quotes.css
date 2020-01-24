@@ -1,0 +1,26 @@
+#quote-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#quote-container {
+    background-color: green;
+    margin: 0;
+    color: white;
+    text-align: center;
+    min-height: 100%;
+}
+
+#quote-author {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#quote-text {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+}
