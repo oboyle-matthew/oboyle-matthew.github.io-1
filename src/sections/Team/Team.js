@@ -15,8 +15,8 @@ function Team() {
 
     ];
     return (
-        <div id="team">
-            <ul>
+        <div >
+            <ul id="team">
             {people.map(person => {
                 return <div id={"person"}>
                     <img id={"person-pic"} src={person.img} />

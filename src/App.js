@@ -11,26 +11,30 @@ import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 
 function App() {
     let options = {
-        sectionClassName:     'section',
-        anchors:              ['sectionOne', 'sectionTwo', 'sectionThree'],
+        // sectionClassName:     'section',
+        anchors:              ['sectionOne', 'sectionTwo', 'sectionThree', 'sectionFour', 'sectionFive', 'sectionSix'],
         scrollBar:            false,
         navigation:           true,
         verticalAlign:        false,
-        sectionPaddingTop:    '50px',
-        sectionPaddingBottom: '50px',
+        // sectionPaddingTop:    '50px',
+        // sectionPaddingBottom: '50px',
         arrowNavigation:      true
     };
   return (
       <div>
-          <Header>
-              <a href="#sectionOne">Section One</a>
-              <a href="#sectionTwo">Section Two</a>
-              <a href="#sectionThree">Section Three</a>
-          </Header>
+          {/*<Header>*/}
+              {/*<a href="#sectionOne">Section One</a>*/}
+              {/*<a href="#sectionTwo">Section Two</a>*/}
+              {/*<a href="#sectionThree">Section Three</a>*/}
+          {/*</Header>*/}
           <SectionsContainer  {...options}>
-              <Section verticalAlign="true" color="#69D2E7"><Title/></Section>
+              <Section ><Title/></Section>
               <Section color="#A7DBD8"><Values/></Section>
               <Section color="#E0E4CC"><Organizations/></Section>
+              <Section color="#E0E4CC"><Quotes/></Section>
+              <Section color="#E0E4CC"><About/></Section>
+              <Section color="#E0E4CC"><Team/></Section>
+
           </SectionsContainer>
       </div>
   );
