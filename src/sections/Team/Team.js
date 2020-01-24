@@ -16,12 +16,14 @@ function Team() {
     ];
     return (
         <div id="team">
+            <ul>
             {people.map(person => {
-                return <div>
+                return <li>
                     <img id={"team-pic"} src={person.img} />
                     <p id={"team-name"}>{person.name}</p>
-                </div>
+                </li>
             })}
+            </ul>
         </div>
     );
 }
