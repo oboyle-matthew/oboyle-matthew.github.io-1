@@ -1,0 +1,9 @@
+#team-pic {
+    width: 150px;
+    height: 150px;
+}
+
+#team {
+    display: flex;
+    flex-direction: row;
+}

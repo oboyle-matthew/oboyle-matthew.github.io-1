@@ -6,13 +6,20 @@ function Team() {
     const people = [
         {name: "Matthew O'Boyle", img: buddies},
         {name: "Feroze Mohideen", img: buddies},
+        {name: "Feroze Mohideen", img: buddies},
+        {name: "Feroze Mohideen", img: buddies},
+        {name: "Feroze Mohideen", img: buddies},
+        {name: "Feroze Mohideen", img: buddies},
+        {name: "Feroze Mohideen", img: buddies},
+        {name: "Feroze Mohideen", img: buddies},
+
     ];
     return (
         <div id="team">
             {people.map(person => {
                 return <div>
-                    <img src={person.img} />
-                    <p>{person.name}</p>
+                    <img id={"team-pic"} src={person.img} />
+                    <p id={"team-name"}>{person.name}</p>
                 </div>
             })}
         </div>
