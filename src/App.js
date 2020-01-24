@@ -9,11 +9,11 @@ import './App.js';
 function App() {
   return (
     <div>
-        <Organizations/>
       <Title/>
         <About/>
         <Team/>
         <Values/>
+        <Organizations/>
     </div>
   );
 }

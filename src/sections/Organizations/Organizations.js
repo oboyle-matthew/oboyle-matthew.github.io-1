@@ -7,7 +7,7 @@ function Organizations() {
     const screens = [
         {
             title: "Title 1",
-            description: "Longer description 1",
+            description: "Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1",
         },
         {
             title: "Title 2",
@@ -37,7 +37,7 @@ function Organizations() {
             <div id={"swipe-container"}>
                 <ReactSwipe
                     className="carousel"
-                    swipeOptions={{ continuous: true }}
+                    swipeOptions={{ continuous: true, auto: 6000 }}
                     ref={el => (reactSwipeEl = el)}
                 >
                     {screens.map(screen => {
@@ -45,16 +45,13 @@ function Organizations() {
                             <h3 id={"screen-title"}>{screen.title}</h3>
                             <div id={"screen-body"}>
                                 <p id={"screen-description"}>{screen.description}</p>
-                                <img id={"screen-img"} src={buddies}/>
+                                <div id={"screen-img-container"}>
+                                    <img id={"screen-img"} src={buddies}/>
+                                </div>
 
                             </div>
                         </div>
                     })}
-                    {/*<div class="pane">PANE 1</div>*/}
-                    {/*<div class="pane">PANE 2</div>*/}
-                    {/*<div class="pane">PANE 3</div>*/}
-                    {/*<div class="pane">PANE 4</div>*/}
-                    {/*<div class="pane">PANE 5</div>*/}
 
                 </ReactSwipe>
             </div>
