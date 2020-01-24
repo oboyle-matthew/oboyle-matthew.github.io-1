@@ -18,10 +18,10 @@ function Team() {
         <div id="team">
             <ul>
             {people.map(person => {
-                return <li>
-                    <img id={"team-pic"} src={person.img} />
-                    <p id={"team-name"}>{person.name}</p>
-                </li>
+                return <div id={"person"}>
+                    <img id={"person-pic"} src={person.img} />
+                    <p id={"person-name"}>{person.name}</p>
+                </div>
             })}
             </ul>
         </div>
