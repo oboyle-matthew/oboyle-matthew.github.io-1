@@ -12,17 +12,19 @@ import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
 
+import Background from '../../images/splash_ibby.jpg';
+
 
 const Canvas = styled(Paper)`
-  background-image: url('../../images/splash_ibby.jpg')  !important;
+  background: url(${Background});
+  background-size: cover;
 `;
 
 const VisibilityWrapper = styled.div`
-  background-color: rgba(255, 255, 255, ${({ device }) => (device === 'mobile' ? 0.9 : 0.6)});
+  background-color: transparent;
   border-radius: ${({ device }) => (device === 'mobile' ? '0px' : '20px')};
   padding: 20px;
-  backdrop-filter: blur(30px);
-  background-image: url('../../images/splash_ibby.jpg')  ;
+  margin-top: -200px;
 
 `;
 
@@ -30,6 +32,7 @@ const Subheader = styled(Typography)`
   font-family: GlacialIndifference !important;
   color: #515151 !important;
   font-size: ${({ device }) => (device === 'mobile' ? '10pt' : '25pt')} !important;
+  justify-content: right;
 `;
 
 const Landing = styled(Grid).attrs({
@@ -41,8 +44,9 @@ const Landing = styled(Grid).attrs({
   min-height: 100%;
   z-index: 2;
   padding-right: ${({ device }) => (device === 'mobile' ? '0' : '10%')} !important;
-  background-color: rgba(0, 0, 0, 0);
   padding-bottom: ${({ device }) => (device === 'mobile' ? '60%' : 0)} !important;
+  background-color: transparent;
+
 `;
 
  
@@ -93,9 +97,10 @@ function Title({device}) {
         <Grid item>
           <Delay wait={400}>
             <Fade>
-              <Subheader device={device} components="p" align="right">
+              {/* <Subheader device={device} components="p" align="right">
                 hey whatsup you guys.
-              </Subheader>
+              </Subheader> */}
+              <AnimatedTypingComponent />
             </Fade>
           </Delay>
         </Grid>
