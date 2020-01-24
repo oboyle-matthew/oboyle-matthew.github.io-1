@@ -1,14 +1,18 @@
 #values-container {
-    height: 700px;
+    height: 450px;
     background-color: lightgoldenrodyellow;
     display: flex;
     flex-direction: row;
 }
 
 #why-ibby {
-    font-size: 80px;
     width: 50%;
     text-align: right;
+    margin: auto;
+}
+
+#why-ibby h1 {
+    font-size: 80px;
 }
 
 #why-ibby-text {
@@ -16,6 +20,7 @@
 }
 
 #all-values {
+    margin: auto;
     width: 50%;
 }
 
