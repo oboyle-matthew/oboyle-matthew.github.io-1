@@ -1,0 +1,29 @@
+#about {
+    background-color: green;
+    height: 500px;
+    text-align: center;
+}
+
+#hi {
+    margin: 0;
+}
+
+#side-by-side {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#about-box {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    width: 50%;
+}
+
+#pic {
+    margin-left: 5%;
+    width: 25%;
+    height: 400px;
+}
