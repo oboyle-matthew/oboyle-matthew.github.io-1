@@ -27,13 +27,8 @@ function App() {
               <a href="#sectionTwo">Section Two</a>
               <a href="#sectionThree">Section Three</a>
           </Header>
-          <Footer>
-              <a href="">Dcoumentation</a>
-              <a href="">Example Source</a>
-              <a href="">About</a>
-          </Footer>
-          <SectionsContainer className="container" {...options}>
-              <Section className="custom-section" verticalAlign="true" color="#69D2E7"><Title/></Section>
+          <SectionsContainer  {...options}>
+              <Section verticalAlign="true" color="#69D2E7"><Title/></Section>
               <Section color="#A7DBD8"><Values/></Section>
               <Section color="#E0E4CC"><Organizations/></Section>
           </SectionsContainer>
