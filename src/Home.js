@@ -18,7 +18,7 @@ const Home = ({ device }) => (
       navigation
       autoScrolling={device === 'desktop'}
       fitToSection={device === 'desktop'}
-      sectionsColor={['#ffffff', '#6aa84f', '#6aa84f', '#6aa84f']}
+      sectionsColor={['#ffffff', '#6aa84f', '#6aa84f', '#6aa84f', '#ebeeee']}
       navigationTooltips={sectionList}
       render={() => (
         <div>
@@ -60,21 +60,7 @@ const Home = ({ device }) => (
            {/* <Title /> */}
 
   
-          <div className="section">
-            <Section
-              device={device}
-              titleWhite="where we've worked"
-              titlePink=":"
-              bodyComponent={(
-                // <CompanyWrapper device={device}>
-                //   <CompanyCarousel />
-                // </CompanyWrapper>
-                <Team />
 
-  )}
-              widthRatio={4}
-            />
-          </div>
           <div className="section">
             <Section
               device={device}
@@ -82,9 +68,34 @@ const Home = ({ device }) => (
               titlePink="?"
               bodyComponent={                <Values />
               }
-              widthRatio={4}
+              widthRatio={0}
             />
           </div>
+            <div className="section">
+                <Section
+                    device={device}
+                    titleWhite="where we've worked"
+                    titlePink=":"
+                    bodyComponent={(
+                        // <CompanyWrapper device={device}>
+                        //   <CompanyCarousel />
+                        // </CompanyWrapper>
+                        <Team />
+
+                    )}
+                    widthRatio={0}
+                />
+            </div>
+            <div className="section">
+                <Section
+                    device={device}
+                    titleWhite="Organizations"
+                    titlePink="?"
+                    bodyComponent={ <Organizations />
+                    }
+                    widthRatio={0}
+                />
+            </div>
         </div>
       )}
     />

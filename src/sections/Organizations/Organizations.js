@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactSwipe from 'react-swipe';
 import './Organizations.css';
+import org from '../../images/org.png';
 import buddies from '../../images/BestBuddies.jpg';
+
 
 function Organizations() {
     const screens = [
         {
             title: "Title 1",
-            description: "Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1",
+            description: "Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1",
         },
         {
             title: "Title 2",
@@ -31,13 +33,13 @@ function Organizations() {
         <div id={"org-container"}>
             <div id={"selector-container"}>
                 {screens.map((screen, i) => {
-                    return <img id={"selector"} src={buddies} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                    return <img id={"selector"} src={org} onClick={() => reactSwipeEl.slide(i, 1000)}/>
                 })}
             </div>
             <div id={"swipe-container"}>
                 <ReactSwipe
                     className="carousel"
-                    swipeOptions={{ continuous: true, auto: 6000 }}
+                    swipeOptions={{ continuous: true }}
                     ref={el => (reactSwipeEl = el)}
                 >
                     {screens.map(screen => {
