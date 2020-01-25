@@ -63,6 +63,7 @@
     font-weight: 400;
     margin-bottom: 200px;
     color: #fff;
+    justify-content: right;
   }
   
   .header-content p {
@@ -89,6 +90,11 @@
       color: #6aa84f
   }
   .strokeme {
-    color: black;
+    color: white;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 5rem;
+  }
+
+  body {
+      text-align: right;
   }

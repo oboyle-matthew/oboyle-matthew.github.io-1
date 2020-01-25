@@ -40,12 +40,15 @@ const Landing = styled(Grid).attrs({
   container: true,
   justify: 'center',
   direction: 'column',
+  textAlign: 'right',
 })`
   min-height: 100%;
   z-index: 2;
   padding-right: ${({ device }) => (device === 'mobile' ? '0' : '10%')} !important;
   padding-bottom: ${({ device }) => (device === 'mobile' ? '60%' : 0)} !important;
   background-color: transparent;
+
+  
 
 `;
 
@@ -94,13 +97,14 @@ function Title({device}) {
             </Fade>
           </Delay>
         </Grid> */}
-        <Grid item>
+        <Grid item style={{textAlign: "right"}}>
           <Delay wait={400}>
             <Fade>
               {/* <Subheader device={device} components="p" align="right">
                 hey whatsup you guys.
               </Subheader> */}
               <AnimatedTypingComponent />
+              {/* <p>hi</p> */}
             </Fade>
           </Delay>
         </Grid>
