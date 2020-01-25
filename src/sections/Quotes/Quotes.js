@@ -10,7 +10,7 @@ function Quotes() {
             author: 'Matthew O\'Boyle',
             year: '2020',
             image: buddies,
-            quote: 'hibfsdbgfd ngdfgfjgrjsfdxfjg dfg sxcngf sxvnbfg sfjxvf gsjx gsjkxs gjkxg kjsg jks gkjsgkjdbgfjksgk d'
+            quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome. Thanks to her leadership, organization, and creative vision, we ended up hosting over 65 dinners between students and faculty in 2018. As Young Trustee, Archana can bring those same qualities to the table on the most pressing issues for Duke.'
         },
         {
             author: 'Feroze Mohideen',

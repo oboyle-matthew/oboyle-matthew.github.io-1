@@ -18,7 +18,7 @@ const Home = ({ device }) => (
       navigation
       autoScrolling={device === 'desktop'}
       fitToSection={device === 'desktop'}
-      sectionsColor={['#ffffff', '#6aa84f', '#6aa84f', '#6aa84f', '#ebeeee']}
+      sectionsColor={['#ffffff', '#6aa84f', '#6aa84f', '#6aa84f', '#ebeeee', '#ebeeee']}
       navigationTooltips={sectionList}
       render={() => (
         <div>
@@ -92,6 +92,16 @@ const Home = ({ device }) => (
                     titleWhite="Organizations"
                     titlePink="?"
                     bodyComponent={ <Organizations />
+                    }
+                    widthRatio={0}
+                />
+            </div>
+            <div className="section">
+                <Section
+                    device={device}
+                    titleWhite="Quotes"
+                    titlePink="?"
+                    bodyComponent={ <Quotes />
                     }
                     widthRatio={0}
                 />

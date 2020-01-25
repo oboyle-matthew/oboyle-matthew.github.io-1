@@ -4,10 +4,8 @@
     <list default="true" id="c009f3c7-6550-4081-8a03-2b380c89bc3f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" afterPath="$PROJECT_DIR$/src/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Organizations/Organizations.css" afterPath="$PROJECT_DIR$/src/sections/Organizations/Organizations.css" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Organizations/Organizations.js" afterPath="$PROJECT_DIR$/src/sections/Organizations/Organizations.js" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Team/Team.css" afterPath="$PROJECT_DIR$/src/sections/Team/Team.css" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Team/Team.js" afterPath="$PROJECT_DIR$/src/sections/Team/Team.js" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Quotes/Quotes.css" afterPath="$PROJECT_DIR$/src/sections/Quotes/Quotes.css" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Quotes/Quotes.js" afterPath="$PROJECT_DIR$/src/sections/Quotes/Quotes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="74" />
+            <state relative-caret-position="344">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -43,14 +41,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quotes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Quotes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quotes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +78,7 @@
       <file leaf-file-name="Section.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Section.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
+            <state relative-caret-position="558">
               <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -79,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Organizations.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Organizations.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sections/Organizations/Organizations.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -136,6 +144,7 @@
     <findStrings>
       <find>swip</find>
       <find>====</find>
+      <find>screen-img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,19 +163,19 @@
         <option value="$PROJECT_DIR$/src/sections/Map/Map.js" />
         <option value="$PROJECT_DIR$/src/sections/Title/Title.js" />
         <option value="$PROJECT_DIR$/src/sections/Quotes/FriendQuotes.js" />
-        <option value="$PROJECT_DIR$/src/sections/Quotes/Quotes.css" />
         <option value="$PROJECT_DIR$/src/sections/About/About.js" />
         <option value="$PROJECT_DIR$/src/sections/About/About.css" />
-        <option value="$PROJECT_DIR$/src/sections/Quotes/Quotes.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/sections/Values/Values.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/sections/Team/Team.css" />
         <option value="$PROJECT_DIR$/src/sections/Team/Team.js" />
         <option value="$PROJECT_DIR$/src/Section.js" />
-        <option value="$PROJECT_DIR$/src/Home.js" />
         <option value="$PROJECT_DIR$/src/sections/Organizations/Organizations.js" />
         <option value="$PROJECT_DIR$/src/sections/Organizations/Organizations.css" />
+        <option value="$PROJECT_DIR$/src/sections/Quotes/Quotes.css" />
+        <option value="$PROJECT_DIR$/src/Home.js" />
+        <option value="$PROJECT_DIR$/src/sections/Quotes/Quotes.js" />
       </list>
     </option>
   </component>
@@ -339,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19747000" />
+    <option name="totallyTimeSpent" value="20322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="23" width="1175" height="738" extended-state="0" />
@@ -636,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/About/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -728,42 +729,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/Team/Team.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,9 +756,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/Organizations/Organizations.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
