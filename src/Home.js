@@ -52,7 +52,7 @@ const Home = ({ device }) => (
                 <About />
 
   )}
-              widthRatio={4}
+              widthRatio={0}
             />
           </div>
   
