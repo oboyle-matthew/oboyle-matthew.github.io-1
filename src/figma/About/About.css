@@ -1,0 +1,54 @@
+.about-container {
+    position: relative;
+    width: 1398px;
+    height: 598px;
+    left: 40px;
+    border: 2px black solid;
+}
+
+#about-ibby {
+    position: absolute;
+    width: 328.62px;
+    height: 229.66px;
+    left: 482.08px;
+    top: 53px;
+
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 101.505px;
+    line-height: 122px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #1A936F;
+
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+#text-container {
+    position: absolute;
+    width: 425px;
+    height: 430px;
+    left: 875px;
+    top: 136px;
+
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #5E5E5E;
+}
+
+#ibby-cutout {
+    position: absolute;
+    width: 691px;
+    height: 543px;
+    left: 60px;
+    top: 53px;
+
+    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
