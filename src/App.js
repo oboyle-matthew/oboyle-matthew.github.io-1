@@ -18,6 +18,7 @@ import Team from './figma/Team/Team';
 import AtDuke from "./figma/AtDuke/AtDuke";
 import Connect from "./figma/Connect/Connect";
 import World from "./figma/World/World";
+import Title from "./figma/Title/Title";
 
 
 
@@ -64,6 +65,7 @@ function App() {
 
     return (
         <div>
+            <Title/>
             <About/>
             <WhyYoungTrustee/>
             <Friends/>
