@@ -16,6 +16,8 @@ import WhyYoungTrustee from './figma/WhyYoungTrustee/WhyYoungTrustee';
 import Friends from './figma/Friends/Friends';
 import Team from './figma/Team/Team';
 import AtDuke from "./figma/AtDuke/AtDuke";
+import Connect from "./figma/Connect/Connect";
+import World from "./figma/World/World";
 
 
 
@@ -66,8 +68,10 @@ function App() {
             <WhyYoungTrustee/>
             <Friends/>
             <Team/>
+            <World/>
             <AtDuke/>
-            <p>Here's text at the bottom</p>
+            <Connect/>
+            {/*<p>Here's text at the bottom</p>*/}
         </div>
     )
 }
