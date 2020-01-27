@@ -1,0 +1,14 @@
+.connect-container {
+    width: 1440px;
+    height: 541px;
+    border: 2px peru solid;
+    background: #4A9973;
+}
+
+#connect-text {
+    position: relative;
+    width: 583px;
+    height: 216px;
+    left: 40px;
+    top: 175px;
+}
