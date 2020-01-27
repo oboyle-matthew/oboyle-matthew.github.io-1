@@ -1,0 +1,67 @@
+#why-container {
+    position: relative;
+    width: 1377px;
+    height: 646px;
+    border: 2px red solid;
+
+}
+
+#left-background {
+    background-color: #f5f5f5;
+    width: 795px;
+    height: 100%;
+}
+
+.value-title {
+    position: absolute;
+    height: 105px;
+    left: 729px;
+
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+
+    color: #1A936F;
+}
+
+#community-title {
+    top: 34px;
+}
+
+#opportunity-title {
+    top: 241px;
+}
+
+#experience-title {
+    top: 442px;
+}
+
+.value-description {
+
+    position: absolute;
+    width: 531px;
+    height: 98px;
+    left: 846px;
+
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #5E5E5E;
+}
+
+#community-description {
+    top: 127px;
+}
+
+#opportunity-description {
+    top: 328px;
+}
+
+#experience-description {
+    top: 528px;
+}

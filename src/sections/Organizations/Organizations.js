@@ -38,7 +38,6 @@ function Organizations() {
             </div>
             <div id={"swipe-container"}>
                 <ReactSwipe
-                    className="carousel"
                     swipeOptions={{ continuous: true }}
                     ref={el => (reactSwipeEl = el)}
                 >

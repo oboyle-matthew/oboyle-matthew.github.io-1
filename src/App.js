@@ -1,19 +1,26 @@
 import React from 'react';
-import Title from './sections/Title/Title';
-import About from './sections/About/About';
-import Team from './sections/Team/Team';
-import Navbar from "./sections/Navbar/components/navbar/Navbar";
-import Values from './sections/Values/Values';
-import Organizations from './sections/Organizations/Organizations';
-import Quotes from './sections/Quotes/Quotes';
-import './App.js';
-import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
+// import Title from './sections/Title/Title';
+// import About from './sections/About/About';
+// import Team from './sections/Team/Team';
+// import Navbar from "./sections/Navbar/components/navbar/Navbar";
+// import Values from './sections/Values/Values';
+// import Organizations from './sections/Organizations/Organizations';
+// import Quotes from './sections/Quotes/Quotes';
+// import './App.js';
+// import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 
-import Responsive from 'react-responsive';
-import Home from './Home';
+// import Responsive from 'react-responsive';
+// import Home from './Home';
+import About from './figma/About/About';
+import WhyYoungTrustee from './figma/WhyYoungTrustee/WhyYoungTrustee';
+import Friends from './figma/Friends/Friends';
+import Team from './figma/Team/Team';
+import AtDuke from "./figma/AtDuke/AtDuke";
 
-const Desktop = props => <Responsive {...props} minWidth={1024} />;
-const Mobile = props => <Responsive {...props} maxWidth={1023} />;
+
+
+// const Desktop = props => <Responsive {...props} minWidth={1024} />;
+// const Mobile = props => <Responsive {...props} maxWidth={1023} />;
 
 function App() {
 //     let options = {
@@ -40,16 +47,29 @@ function App() {
 //           </SectionsContainer>
 //       </div>
 //   );
-      return(
-            <>
-            <Desktop>
-                <Home device="desktop" />
-            </Desktop>
-            <Mobile>
-                <Home device="mobile" />
-            </Mobile>
-        </>
-      )
+//       return(
+//             <>
+//             <Desktop>
+//                 <Home device="desktop" />
+//             </Desktop>
+//             <Mobile>
+//                 <Home device="mobile" />
+//             </Mobile>
+//         </>
+//       )
+
+
+
+    return (
+        <div>
+            <About/>
+            <WhyYoungTrustee/>
+            <Friends/>
+            <Team/>
+            <AtDuke/>
+            <p>Here's text at the bottom</p>
+        </div>
+    )
 }
 
 export default App;

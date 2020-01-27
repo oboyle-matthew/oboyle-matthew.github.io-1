@@ -11,7 +11,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import PropTypes from 'prop-types';
 import Section from './Section';
 
-const sectionList = ['home', 'good', 'evening', 'everybody'];
+const sectionList = ['home', 'good', 'evening', 'everybody', 'let\s', 'get', 'started'];
 
 const Home = ({ device }) => (
     <ReactFullpage
