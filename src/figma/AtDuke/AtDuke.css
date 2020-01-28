@@ -1,9 +1,11 @@
-.at-duke-container {
+.at-duke-container { 
     position: relative;
-    width: 1989px;
-    height: 742px;
-    border: 2px pink solid;
-}
+     width: 100%;
+      height: 742px;
+       /* border: 2px pink solid; */ 
+       background-image: url('../../images/ibbyatdukebackground.svg'); 
+       background-size: cover; 
+    }
 
 #selector-box {
     position: absolute;
@@ -43,7 +45,7 @@
     height: 60px;
     left: 43px;
     top: 41px;
-    font-family: Kollektif;
+    /* font-family: Kollektif; */
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
