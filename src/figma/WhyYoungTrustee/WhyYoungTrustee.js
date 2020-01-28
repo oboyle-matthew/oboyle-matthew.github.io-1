@@ -1,10 +1,13 @@
 import React from 'react';
 import './WhyYoungTrustee.css';
+import why_yt_graphic from '../../images/why-yt-graphic.svg';
 
 function WhyYoungTrustee() {
     return (
         <div id={"why-container"}>
-            <div id={"left-background"} />
+            <div id={"left-background"}>
+                <img src={why_yt_graphic} class="whyyt"></img>
+            </div>
             <div class="three-container">
                 <div class="descriptionitem">
                     <div className="value-title" id={"community-title"}>COMMUNITY</div>

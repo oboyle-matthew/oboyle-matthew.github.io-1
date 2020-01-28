@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import ibby from '../../images/ibby_cutout.png';
+import ibby from '../../images/ibby-export.png';
 import sig from '../../images/sig.png';
 
 function About() {
@@ -8,8 +8,10 @@ function About() {
         <div className={"about-container"}>
             {/* <div id={"about-ibby"}>About ibby</div>
             */}
-            <img src={ibby} id={'ibby-cutout'} />
-            <div class="white-area"></div>
+
+            <div class="white-area">
+                <img src={ibby} id={'ibby-cutout'} />
+            </div>
             <div class="beige-area">
                 <div class="row">
                 <div id={"text-container"}>

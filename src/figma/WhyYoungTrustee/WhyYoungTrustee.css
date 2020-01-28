@@ -9,8 +9,22 @@
 
 #left-background {
     background-color: #f5f5f5;
-    width: 55%;
+    width: 52%;
     height: 598px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    /* justify-content: flex-start; */
+}
+
+.whyyt {
+    /* position: absolute; */
+    /* width: 40%; */
+    /* margin-left: -200px; */
+    height: 100%;
+    width: 100%;
+
 }
 
 .value-title {
