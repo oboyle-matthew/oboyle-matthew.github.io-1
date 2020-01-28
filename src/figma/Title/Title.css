@@ -1,0 +1,50 @@
+.title-container {
+    width: 1398px;
+    height: 800px;
+    border: 2px magenta solid;
+    background-image: url("../../images/splash_ibby.jpg");
+    background-size: 1398px 800px;
+}
+
+#typing-title {
+    position: absolute;
+    width: 623.5px;
+    height: 378.79px;
+    left: 223.93px;
+    top: 226px;
+
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 134.086px;
+    line-height: 161px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 3.80515px 7.61029px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#name-rectangle {
+    position: absolute;
+    width: 295.85px;
+    height: 175.04px;
+    left: 217px;
+    top: 363px;
+    background-color: #1A936F;
+    animation: 8s fadeIn;
+    opacity: 1;
+}
+
