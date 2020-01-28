@@ -9,7 +9,7 @@ function About() {
             {/* <div id={"about-ibby"}>About ibby</div>
             */}
             <img src={ibby} id={'ibby-cutout'} />
-            
+            <div class="white-area"></div>
             <div class="beige-area">
                 <div class="row">
                 <div id={"text-container"}>

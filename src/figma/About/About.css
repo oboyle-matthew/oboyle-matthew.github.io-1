@@ -3,12 +3,21 @@
     height: 598px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.white-area {
+    background: #FFF;
+    width: 600px;
+    height: 598px;
+    display: flex;
+    flex-direction: column;
 }
 
 .beige-area {
     background: #F5F5F5;
-    width: 56%;
+    width: 816px;
     display: flex;
     flex-direction: column;
     justify-content: center;
