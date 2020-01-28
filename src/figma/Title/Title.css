@@ -112,6 +112,7 @@
     flex:1;
     flex-direction: row;
     display: flex;
+    z-index: 15;
 }
 
 .logo {
@@ -128,6 +129,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
+    z-index: 20;
 }
 .item, .item a {
     color: white;
@@ -135,6 +137,11 @@
     flex-direction: column;
     justify-content: center;
     text-decoration: none;
+}
+
+.item:hover {
+    background-color: green;
+    opacity: 80%;
 }
 
 .item h3 {

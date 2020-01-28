@@ -53,13 +53,7 @@ function AtDuke() {
     ];
     return (
         <div className={"at-duke-container"}>
-            <div id={'selector-box'}>
-                {screens.map((screen, i) => {
-                    return <img
-                        style={{position: 'absolute', left: (i%3) * 121 + 'px', top: Math.floor(i/3) * 114 + 'px'}}
-                        id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
-                })}
-            </div>
+            <div class="cut">
             <ReactSwipe
                 id={'card-container'}
                 swipeOptions={{ continuous: true }}
@@ -82,6 +76,14 @@ function AtDuke() {
                     </div>
                 })}
             </ReactSwipe>
+            </div>
+            <div id={'selector-box'}>
+                {screens.map((screen, i) => {
+                    return <img
+                        style={{position: 'absolute', left: (i%3) * 121 + 'px', top: Math.floor(i/3) * 114 + 'px'}}
+                        id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                })}
+            </div>
         </div>
     );
 }

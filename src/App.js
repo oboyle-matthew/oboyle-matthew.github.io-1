@@ -73,7 +73,6 @@ function App() {
             <World/>
             <AtDuke/>
             <Connect/>
-            {/*<p>Here's text at the bottom</p> */}
         </div>
     )
 }

@@ -236,11 +236,11 @@ class Team extends React.Component {
     }
 
     updateScreenSize() {
-        if (window.innerWidth < 800) {
+        if (window.innerWidth <= 800) {
             this.setState({
                 screenSize: 'small',
             })
-        } else if (window.innerWidth < 1200) {
+        } else if (window.innerWidth <= 1200) {
             this.setState({
                 screenSize: 'medium',
             })

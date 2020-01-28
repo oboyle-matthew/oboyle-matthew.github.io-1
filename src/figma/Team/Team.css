@@ -2,7 +2,6 @@
     position: relative;
     width: 100vw;
     border: 2px purple solid;
-    /*margin-bottom: 50px;*/
 }
 
 #team-title {
@@ -12,7 +11,7 @@
     left: 84px;
     top: 0;
 
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-style: normal;
     font-weight: bold;
     font-size: 68px;
