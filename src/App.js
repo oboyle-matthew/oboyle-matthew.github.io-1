@@ -68,11 +68,11 @@ function App() {
         <Title/>
             <About/>
             <WhyYoungTrustee/>
-            {/* <Friends/>
+            <Friends/>
             <Team/>
             <World/>
             <AtDuke/>
-            <Connect/> */}
+            <Connect/>
             {/*<p>Here's text at the bottom</p> */}
         </div>
     )

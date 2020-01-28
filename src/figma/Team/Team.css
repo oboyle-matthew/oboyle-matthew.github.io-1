@@ -1,10 +1,8 @@
 #team-container {
     position: relative;
-    width: 1367px;
-    height: 783.71px;
-    left: 34px;
+    width: 100vw;
     border: 2px purple solid;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 #team-title {
@@ -29,8 +27,8 @@
     position: absolute;
     width: 3.5px;
     height: 0px;
-    left: 32px;
-    top: 344px;
+    left: 3vw;
+    top: 50%;
     z-index: 5;
 
     border: 6px solid rgba(74, 153, 115, 0.7);
@@ -43,8 +41,8 @@
     position: absolute;
     width: 3.5px;
     height: 0px;
-    left: 1330.5px;
-    top: 344px;
+    left: 97vw;
+    top: 50%;
     z-index: 5;
 
     border: 6px solid rgba(74, 153, 115, 0.7);
@@ -54,18 +52,25 @@
 
 #photo-icons {
     position: relative;
-    width: 1175.08px;
-    height: 550px;
-    left: 114px;
+    width: 88vw;
+    height: 40vw;
+    left: 6vw;
     top: 210px;
     overflow: visible;
 
     box-shadow: 0px 3.60496px 3.60496px rgba(0, 0, 0, 0.25);
 }
 
-#photo-image {
-    width: 171.29px;
-    height: 171.29px;
+#big-photo-image {
+    width: 12.53vw;
+    height: 12.53vw;
+    border-radius: 50%;
+    border: 3px #397377 solid;
+}
+
+#small-photo-image {
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     border: 3px #397377 solid;
 }
@@ -83,12 +88,16 @@
     /* font-family: Kollektif; */
     font-style: normal;
     font-weight: normal;
-    font-size: 18.9449px;
+    font-size: 1.5vw;
     line-height: 23px;
     display: flex;
     align-items: center;
 
     color: #5E5E5E;
+}
+
+#small-member-name {
+    font-size: 2.5vw;
 }
 
 .member-role {
@@ -99,7 +108,7 @@
     /* font-family: Kollektif; */
     font-style: normal;
     font-weight: normal;
-    font-size: 18.9449px;
+    font-size: 1.5vw;
     line-height: 23px;
     display: flex;
     align-items: center;
@@ -108,6 +117,43 @@
 
 }
 
+#small-member-role {
+    font-size: 2.5vw;
+}
+
 #swipe-container {
-    height: 783.71px;
+    height: 60vw;
+    overflow: scroll;
+}
+
+#swipe-inner-container {
+    height: 62vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    #swipe-inner-container {
+        height: calc(200px + 67vw);
+    }
+
+    #swipe-container {
+        height: calc(200px + 67vw);
+    }
+
+    #photo-icons {
+        height: 60vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #swipe-inner-container {
+        height: calc(300px + 93vw);
+    }
+
+    #swipe-container {
+        height: calc(300px + 93vw);
+    }
+
+    #photo-icons {
+        height: calc(102vw);
+    }
 }

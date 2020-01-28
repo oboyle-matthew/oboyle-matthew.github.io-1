@@ -32,7 +32,7 @@ function Title() {
             <div class="content">
 
                 <Typing>
-                    <div id="typing-title">Hi, I'm ibby.</div>
+                    <div id="typing-title">Hi, I'm Ibby.</div>
                 </Typing>
                 <div id={'name-rectangle'}/>
 
