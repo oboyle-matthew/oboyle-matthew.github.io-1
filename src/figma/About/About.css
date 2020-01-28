@@ -1,6 +1,6 @@
 .about-container {
     position: relative;
-    height: 598px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

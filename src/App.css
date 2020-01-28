@@ -13,4 +13,11 @@ h1 {
 .main-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

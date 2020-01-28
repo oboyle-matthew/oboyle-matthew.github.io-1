@@ -65,10 +65,10 @@ function App() {
 
     return (
         <div class="main-container">
-            <Title/>
+        <Title/>
             <About/>
-            {/* <WhyYoungTrustee/>
-            <Friends/>
+            <WhyYoungTrustee/>
+            {/* <Friends/>
             <Team/>
             <World/>
             <AtDuke/>
