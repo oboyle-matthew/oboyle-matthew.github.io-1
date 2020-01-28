@@ -71,9 +71,8 @@ function App() {
             {/* <Friends/>
             <Team/>
             <World/>
-            <AtDuke/>
-            <Connect/> */}
-            {/*<p>Here's text at the bottom</p> */}
+            <AtDuke/>*/}
+            <Connect/> 
         </div>
     )
 }

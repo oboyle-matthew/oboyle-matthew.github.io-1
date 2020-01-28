@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import ibby from '../../images/ibby-export.png';
-import sig from '../../images/sig.png';
+import sig from '../../images/signature.svg';
 
 function About() {
     return (
