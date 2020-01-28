@@ -1,19 +1,28 @@
 .world-container {
-    width: 1440px;
-    height: 541px;
-    border: 2px firebrick solid;
-    background-image: url("../../images/world_map.PNG");
-    background-size: 1440px 541px;
+    width: 100%;
+    height: 646px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px firebrick solid; */
+    /* background-image: url("../../images/world_map.PNG");
+    background-size: 1440px 541px; */
+}
+
+.map-container {
+    width: 100%;
+    height: 525px;
+    background-image:    url('../../images/Map.svg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 #world-title {
     position: relative;
-    width: 997px;
-    height: 134.53px;
-    left: 42px;
-    top: 0;
+    width: 100%;
+    height: 121px;
 
-    font-family: Kollektif;
+    /* font-family: Kollektif; */
     font-style: normal;
     font-weight: bold;
     font-size: 68px;
@@ -23,6 +32,16 @@
 
     color: #1A936F;
 }
+
+.intro {
+    background: #F5F5F5;
+
+}
+
+.intro h2 {
+    padding-left: 50px;
+}
+
 
 #pushpin {
     position: relative;
