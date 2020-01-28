@@ -9,14 +9,14 @@
 
 #left-background {
     background-color: #f5f5f5;
-    width: 795px;
+    width: 55%;
     height: 598px;
 }
 
 .value-title {
-    position: absolute;
-    height: 105px;
-    left: 729px;
+    position: relative;
+    /* height: 105px;
+    left: 729px; */
 
     /* font-family: Kollektif; */
     font-style: normal;
@@ -28,23 +28,23 @@
 }
 
 #community-title {
-    top: 34px;
+    /* top: 34px; */
 }
 
 #opportunity-title {
-    top: 241px;
+    /* top: 241px; */
 }
 
 #experience-title {
-    top: 442px;
+    /* top: 442px; */
 }
 
 .value-description {
 
-    position: absolute;
-    width: 531px;
+    position: relative;
+    /* width: 531px;
     height: 98px;
-    left: 846px;
+    left: 846px; */
 
     /* font-family: Kollektif; */
     font-style: normal;
@@ -53,16 +53,31 @@
     line-height: 24px;
 
     color: #5E5E5E;
+
 }
 
-#community-description {
-    top: 127px;
+#description {
+    width: 60%;
+    height: auto; 
+    padding-top: 20px;
 }
 
-#opportunity-description {
-    top: 328px;
+.description-item {
+    height: 98px;
 }
 
-#experience-description {
-    top: 528px;
+.three-container {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left:-60px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
