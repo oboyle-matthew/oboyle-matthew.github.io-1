@@ -84,13 +84,13 @@ function AtDuke() {
                         id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
                 })}
             </div>
-            {/*<div id={'below-selector-box'}>*/}
-                {/*{screens.map((screen, i) => {*/}
-                    {/*return <img*/}
-                        {/*style={{position: 'absolute', left: i * 5 + 'vw', top: '400px'}}*/}
-                        {/*id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>*/}
-                {/*})}*/}
-            {/*</div>*/}
+            <div id={'below-selector-box'}>
+                {screens.map((screen, i) => {
+                    return <img
+                        style={{position: 'absolute', left: i * 5 + 'vw', top: '400px'}}
+                        id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                })}
+            </div>
         </div>
     );
 }
