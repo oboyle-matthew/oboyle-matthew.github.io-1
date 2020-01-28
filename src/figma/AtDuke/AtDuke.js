@@ -64,15 +64,6 @@ function AtDuke() {
                         <img id={'card-img'} src={screen.img} />
                         <div id={'card-title'}>{screen.title}</div>
                         <div id={'card-description'}>{screen.description}</div>
-                        <p>{i}</p>
-                        {/*<h3 id={"screen-title"}>{screen.title}</h3>*/}
-                        {/*<div id={"screen-body"}>*/}
-                            {/*<p id={"screen-description"}>{screen.description}</p>*/}
-                            {/*<div id={"screen-img-container"}>*/}
-                                {/*<img id={"screen-img"} src={org}/>*/}
-                            {/*</div>*/}
-
-                        {/*</div>*/}
                     </div>
                 })}
             </ReactSwipe>
@@ -86,9 +77,10 @@ function AtDuke() {
             </div>
             <div id={'below-selector-box'}>
                 {screens.map((screen, i) => {
-                    return <img
-                        style={{position: 'absolute', left: i * 5 + 'vw', top: '400px'}}
-                        id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                    return <div id={'selector-icon-container'}>
+                        <img
+                            id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                    </div>
                 })}
             </div>
         </div>

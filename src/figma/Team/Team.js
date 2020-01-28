@@ -227,20 +227,20 @@ class Team extends React.Component {
                 quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
             },
             {
-                author: 'Another 37name',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
+                 author: 'Another 37name',
+                 year: '2020',
+                 image: buddies,
+                 quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
+             },
         ];
     }
 
     updateScreenSize() {
-        if (window.innerWidth <= 800) {
+        if (window.innerWidth < 800) {
             this.setState({
                 screenSize: 'small',
             })
-        } else if (window.innerWidth <= 1200) {
+        } else if (window.innerWidth < 1200) {
             this.setState({
                 screenSize: 'medium',
             })
@@ -262,50 +262,55 @@ class Team extends React.Component {
         const numElements = 12;
         const elementsPerRow = 3;
         return (
-            <ReactSwipe
-                id={"swipe-container"}
-                swipeOptions={{ continuous: true }}
-                ref={el => (reactSwipeEl = el)}
-            >
-                {[...Array(Math.ceil(quotes.length / numElements)).keys()].map((quote, i) => {
-                    return <div id={'swipe-inner-container'}>
-                        <div id={'photo-icons'}>
-                            {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
-                                return <div className={'photo-row'}
-                                            style={{
-                                                position: 'absolute',
-                                                left: ((j % elementsPerRow) * 29) + 'vw',
-                                                top: (Math.floor(j / elementsPerRow) * 25) + 'vw',
-                                            }}>
-                                    <img id={'small-photo-image'} src={buddies} />
-                                </div>
-                            })}
-                            {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
-                                return <div className={'member-name'} id={'small-member-name'}
-                                            style={{
-                                                position: 'absolute',
-                                                left: ((j%elementsPerRow)*29).toString() + 'vw',
-                                                top: (15.5 + Math.floor(j / elementsPerRow) * 25) + 'vw',
-                                            }}>
-                                    {quotes[(i*numElements) + j].author}
-                                </div>
-                            })}
-                            {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
-                                return <div className={'member-role'} id={'small-member-role'}
-                                            style={{
-                                                position: 'absolute',
-                                                left: ((j%elementsPerRow)*29).toString() + 'vw',
-                                                top: (19 + Math.floor(j / elementsPerRow) * 25) + 'vw',
-                                            }}>
-                                    {quotes[(i*numElements) + j].year}
-                                </div>
-                            })}
-                        </div>
+            <div id={"team-container"}>
+                <div id={"team-title"}>The Team</div>
+                <ReactSwipe
+                    id={"swipe-container"}
+                    swipeOptions={{ continuous: true }}
+                    ref={el => (reactSwipeEl = el)}
+                >
+                    {[...Array(Math.ceil((quotes.length-1) / numElements)).keys()].map((quote, i) => {
+                        return <div id={'swipe-inner-container'}>
+                            <div id={'photo-icons'}>
+                                {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
+                                    return <div className={'photo-row'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    left: ((j % elementsPerRow) * 29) + 'vw',
+                                                    top: (Math.floor(j / elementsPerRow) * 25) + 'vw',
+                                                }}>
+                                        <img id={'small-photo-image'} src={buddies} />
+                                    </div>
+                                })}
+                                {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
+                                    return <div className={'member-name'} id={'small-member-name'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    left: ((j%elementsPerRow)*29).toString() + 'vw',
+                                                    top: (15.5 + Math.floor(j / elementsPerRow) * 25) + 'vw',
+                                                }}>
+                                        {quotes[(i*numElements) + j].author}
+                                    </div>
+                                })}
+                                {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
+                                    return <div className={'member-role'} id={'small-member-role'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    left: ((j%elementsPerRow)*29).toString() + 'vw',
+                                                    top: (19 + Math.floor(j / elementsPerRow) * 25) + 'vw',
+                                                }}>
+                                        {quotes[(i*numElements) + j].year}
+                                    </div>
+                                })}
+                            </div>
 
-                    </div>
-                })}
-            </ReactSwipe>
-        );
+                        </div>
+                    })}
+                </ReactSwipe>
+                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
+                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
+            </div>
+        )
 
     }
 
@@ -316,68 +321,66 @@ class Team extends React.Component {
         const numElements = screenSize === 'large' ? 10 : 15;
         const elementsPerRow = 5;
         return (
-            <ReactSwipe
-                id={"swipe-container"}
-                swipeOptions={{ continuous: true }}
-                ref={el => (reactSwipeEl = el)}
-            >
-                {[...Array(Math.ceil(quotes.length / numElements)).keys()].map((quote, i) => {
-                    return <div id={'swipe-inner-container'}>
-                        <div id={'photo-icons'}>
-                            {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
-                                return <div className={'photo-row'}
-                                            style={{
-                                                position: 'absolute',
-                                                left: ((j % elementsPerRow) * 17.6) + 'vw',
-                                                top: (Math.floor(j / elementsPerRow) * 19) + 'vw',
-                                                // left: ((j%5)*17.6).toString() + 'vw',
-                                                // top: j < 5 ? 0 : '20vw',
-                                            }}>
-                                    <img id={'big-photo-image'} src={buddies} />
-                                </div>
-                            })}
-                            {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
-                                return <div className={'member-name'}
-                                            style={{
-                                                position: 'absolute',
-                                                left: ((j%5)*17.6).toString() + 'vw',
-                                                top: (13 + Math.floor(j / elementsPerRow) * 19) + 'vw',
-                                                // top: j < 5 ? '13vw' : '33vw',
-                                            }}>
-                                    {quotes[(i*numElements) + j].author}
-                                </div>
-                            })}
-                            {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
-                                return <div className={'member-role'}
-                                            style={{
-                                                position: 'absolute',
-                                                left: ((j%5)*17.6).toString() + 'vw',
-                                                top: (15 + Math.floor(j / elementsPerRow) * 19) + 'vw',
-                                            }}>
-                                    {quotes[(i*numElements) + j].year}
-                                </div>
-                            })}
-                        </div>
+            <div id={"team-container"}>
+                <div id={"team-title"}>The Team</div>
+                <ReactSwipe
+                    id={"swipe-container"}
+                    swipeOptions={{ continuous: true }}
+                    ref={el => (reactSwipeEl = el)}
+                >
+                    {[...Array(Math.ceil(quotes.length / numElements)).keys()].map((quote, i) => {
+                        return <div id={'swipe-inner-container'}>
+                            <div id={'photo-icons'}>
+                                {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
+                                    return <div className={'photo-row'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    left: ((j % elementsPerRow) * 17.6) + 'vw',
+                                                    top: (Math.floor(j / elementsPerRow) * 19) + 'vw',
+                                                    // left: ((j%5)*17.6).toString() + 'vw',
+                                                    // top: j < 5 ? 0 : '20vw',
+                                                }}>
+                                        <img id={'big-photo-image'} src={buddies} />
+                                    </div>
+                                })}
+                                {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
+                                    return <div className={'member-name'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    left: ((j%5)*17.6).toString() + 'vw',
+                                                    top: (13 + Math.floor(j / elementsPerRow) * 19) + 'vw',
+                                                    // top: j < 5 ? '13vw' : '33vw',
+                                                }}>
+                                        {quotes[(i*numElements) + j].author}
+                                    </div>
+                                })}
+                                {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
+                                    return <div className={'member-role'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    left: ((j%5)*17.6).toString() + 'vw',
+                                                    top: (15 + Math.floor(j / elementsPerRow) * 19) + 'vw',
+                                                }}>
+                                        {quotes[(i*numElements) + j].year}
+                                    </div>
+                                })}
+                            </div>
 
-                    </div>
-                })}
-            </ReactSwipe>
+                        </div>
+                    })}
+                </ReactSwipe>
+
+                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
+                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
+            </div>
         );
 
     }
 
     render() {
         const { screenSize } = this.state;
-        let reactSwipeEl;
-        console.log(screenSize);
         return (
-            <div id={"team-container"}>
-                <div id={"team-title"}>The Team</div>
-
-                {screenSize === 'small' ? this.renderSmallScreen() : this.renderBigScreen()}
-                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
-                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
-            </div>
+            screenSize === 'small' ? this.renderSmallScreen() : this.renderBigScreen()
         );
 
     }

@@ -20,10 +20,17 @@
 #selector-icon {
     width: 9vw;
     height: 9vw;
+    z-index: 20;
+    display: inline-block;
 }
 
 #below-selector-box {
     display: none;
+    width: 90vw;
+    overflow: auto;
+    left: 5vw;
+    position: absolute;
+    top: 600px;
 }
 
 #card-container {
@@ -76,4 +83,32 @@
     align-items: center;
 
     color: #5E5E5E;
+}
+
+@media only screen and (max-width: 900px) {
+    #below-selector-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #selector-box {
+        display: none;
+    }
+
+    #card-container {
+        left: 5vw;
+        width: 90vw;
+    }
+
+    #card-img {
+        width: 46%;
+        left: 54%;
+    }
+
+    #selector-icon-container {
+        float: left;
+        text-align: center;
+        width: 11.25vw;
+        z-index: 20;
+    }
 }
