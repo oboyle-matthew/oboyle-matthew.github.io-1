@@ -64,16 +64,16 @@ function App() {
 
 
     return (
-        <div>
+        <div class="main-container">
             <Title/>
             <About/>
-            <WhyYoungTrustee/>
+            {/* <WhyYoungTrustee/>
             <Friends/>
             <Team/>
             <World/>
             <AtDuke/>
-            <Connect/>
-            {/*<p>Here's text at the bottom</p>*/}
+            <Connect/> */}
+            {/*<p>Here's text at the bottom</p> */}
         </div>
     )
 }

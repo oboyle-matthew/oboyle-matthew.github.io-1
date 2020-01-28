@@ -1,9 +1,17 @@
 .about-container {
     position: relative;
-    width: 1398px;
     height: 598px;
-    left: 40px;
-    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.beige-area {
+    background: #F5F5F5;
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #about-ibby {
@@ -13,7 +21,7 @@
     left: 482.08px;
     top: 53px;
 
-    font-family: Kollektif;
+    /* font-family: Kollektif; */
     font-style: normal;
     font-weight: bold;
     font-size: 101.505px;
@@ -28,13 +36,17 @@
 }
 
 #text-container {
-    position: absolute;
+    /* width: 425px;
+    height: 430px;
+    left: 775px;
+    top: 136px; */
     width: 425px;
     height: 430px;
-    left: 875px;
-    top: 136px;
+    /* left: 875px;
+    right: 800px;
+    top: 910px; */
 
-    font-family: Kollektif;
+    /* font-family: Kollektif; */
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -43,12 +55,26 @@
     color: #5E5E5E;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.row2 {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+
 #ibby-cutout {
     position: absolute;
-    width: 691px;
-    height: 543px;
-    left: 60px;
-    top: 53px;
+    left: 100px;
+    top: 50px;
+    /* width: 691px;
+    height: 543px; */
+
 
     /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
 }
