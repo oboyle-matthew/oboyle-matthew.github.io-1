@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c009f3c7-6550-4081-8a03-2b380c89bc3f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/connect_ibby.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/fb.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/ibbyatdukebackground.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/insta.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/join.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/signature.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/figma/About/About.css" afterPath="$PROJECT_DIR$/src/figma/About/About.css" />
-      <change beforePath="$PROJECT_DIR$/src/figma/About/About.js" afterPath="$PROJECT_DIR$/src/figma/About/About.js" />
       <change beforePath="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" afterPath="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" />
       <change beforePath="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js" afterPath="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js" />
-      <change beforePath="$PROJECT_DIR$/src/figma/Connect/Connect.css" afterPath="$PROJECT_DIR$/src/figma/Connect/Connect.css" />
-      <change beforePath="$PROJECT_DIR$/src/figma/Connect/Connect.js" afterPath="$PROJECT_DIR$/src/figma/Connect/Connect.js" />
       <change beforePath="$PROJECT_DIR$/src/figma/Friends/Friends.css" afterPath="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
       <change beforePath="$PROJECT_DIR$/src/figma/Friends/Friends.js" afterPath="$PROJECT_DIR$/src/figma/Friends/Friends.js" />
-      <change beforePath="$PROJECT_DIR$/src/figma/Team/Team.css" afterPath="$PROJECT_DIR$/src/figma/Team/Team.css" />
-      <change beforePath="$PROJECT_DIR$/src/figma/Team/Team.js" afterPath="$PROJECT_DIR$/src/figma/Team/Team.js" />
-      <change beforePath="$PROJECT_DIR$/src/figma/Title/Title.css" afterPath="$PROJECT_DIR$/src/figma/Title/Title.css" />
-      <change beforePath="$PROJECT_DIR$/src/images/sig.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,58 +32,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.js">
+      <file leaf-file-name="AtDuke.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="242" column="39" lean-forward="false" selection-start-line="242" selection-start-column="39" selection-end-line="242" selection-end-column="39" />
+            <state relative-caret-position="358">
+              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.css">
+      <file leaf-file-name="AtDuke.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="356">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Title.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/Title/Title.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="About.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/About/About.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-              <folding>
-                <marker date="1580250149302" expanded="true" signature="898:971" ph="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Title.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/Title/Title.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
-              <folding>
-                <marker date="1580250149315" expanded="true" signature="2759:2762" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +80,10 @@
       <find>783</find>
       <find>team-container</find>
       <find>media</find>
-      <find>smallScreen</find>
       <find>photo-icons</find>
+      <find>smallScreen</find>
+      <find>card-container</find>
+      <find>selector-box</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,10 +118,6 @@
         <option value="$PROJECT_DIR$/src/figma/WhyYoungTrustee/WhyYoungTrustee.js" />
         <option value="$PROJECT_DIR$/src/figma/WhyYoungTrustee/WhyYoungTrustee.css" />
         <option value="$PROJECT_DIR$/src/sections/Organizations/Organizations.js" />
-        <option value="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
-        <option value="$PROJECT_DIR$/src/figma/Friends/Friends.js" />
-        <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js" />
-        <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" />
         <option value="$PROJECT_DIR$/src/figma/Connect/Connect.js" />
         <option value="$PROJECT_DIR$/src/figma/Connect/Connect.css" />
         <option value="$PROJECT_DIR$/src/figma/World/World.js" />
@@ -180,6 +127,10 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/figma/Team/Team.css" />
         <option value="$PROJECT_DIR$/src/figma/Team/Team.js" />
+        <option value="$PROJECT_DIR$/src/figma/Friends/Friends.js" />
+        <option value="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
+        <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" />
+        <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js" />
       </list>
     </option>
   </component>
@@ -203,9 +154,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="328" />
-    <option name="y" value="29" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="14" />
+    <option name="y" value="345" />
     <option name="width" value="1175" />
     <option name="height" value="738" />
   </component>
@@ -253,6 +204,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="figma" type="462c0819:PsiDirectoryNode" />
               <item name="About" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ibby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="figma" type="462c0819:PsiDirectoryNode" />
+              <item name="AtDuke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ibby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="figma" type="462c0819:PsiDirectoryNode" />
+              <item name="Friends" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
@@ -338,10 +303,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47606000" />
+    <option name="totallyTimeSpent" value="49741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="328" y="29" width="1175" height="738" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -352,7 +317,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24170212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.221875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -582,46 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="104" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/Organizations/Organizations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -780,8 +709,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="242" column="39" lean-forward="false" selection-start-line="242" selection-start-column="39" selection-end-line="242" selection-end-column="39" />
+        <state relative-caret-position="260">
+          <caret line="246" column="16" lean-forward="true" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding />
         </state>
       </provider>

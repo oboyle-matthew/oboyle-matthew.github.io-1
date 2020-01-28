@@ -4,7 +4,6 @@ import ReactSwipe from 'react-swipe';
 import buddies from '../../images/BestBuddies.jpg';
 
 
-
 function Friends() {
     const quotes = [
         {
@@ -41,30 +40,22 @@ function Friends() {
     let reactSwipeEl;
     return (
         <div id={"friends-container"}>
-            <div class="intro"><p>Friends of Ibby</p></div>
-            <div class="swipe-arrow-container">
-                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
-                <ReactSwipe
-                    id={"swipe-container"}
-                    swipeOptions={{ continuous: true }}
-                    ref={el => (reactSwipeEl = el)}
-                >
-                    {quotes.map((quote, i) => {
-                        return (
-                        <div id={"quote-container"}>
-
-                            <img key={i} id={"friend-pic"} src={quote.image}/>
-                            <div id={"quote-string"}>"</div>
-                            <div id={"quote-text"}>{quote.quote}</div>
-                            <div id={"quote-author"}>{quote.author}</div>
-                            
-                        </div>
-                        // <p style={imageStyles}>hi</p>
-                    )})}
-                </ReactSwipe>
-                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
-            </div>
-            
+            <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
+            <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
+            <ReactSwipe
+                id={"swipe-container"}
+                swipeOptions={{ continuous: true }}
+                ref={el => (reactSwipeEl = el)}
+            >
+                {quotes.map((quote, i) => {
+                    return <div id={"quote-container"}>
+                        <img key={i} id={"friend-pic"} src={quote.image}/>
+                        <div id={"quote-string"}>"</div>
+                        <div id={"quote-text"}>{quote.quote}</div>
+                        <div id={"quote-author"}>{quote.author}</div>
+                    </div>
+                })}
+            </ReactSwipe>
         </div>
     );
 }

@@ -13,7 +13,7 @@ function AtDuke() {
         {
             title: "Title 1",
             img: org,
-            description: "Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1Longer description 1",
+            description: "Ibby is involved in this organization. It is so so so sos sos os so cool. Here's some more text. Go Ibby! Ibby is involved in this organization. It is so so so sos sos os so cool. Here's some more text. Go Ibby! Ibby is involved in this organization. It is so so so sos sos os so cool. Here's some more text. Go Ibby!"
         },
         {
             title: "Title 2",
@@ -80,10 +80,17 @@ function AtDuke() {
             <div id={'selector-box'}>
                 {screens.map((screen, i) => {
                     return <img
-                        style={{position: 'absolute', left: (i%3) * 121 + 'px', top: Math.floor(i/3) * 114 + 'px'}}
+                        style={{position: 'absolute', left: (i%3) * 10.5 + 'vw', top: Math.floor(i/3) * 150 + 'px'}}
                         id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
                 })}
             </div>
+            {/*<div id={'below-selector-box'}>*/}
+                {/*{screens.map((screen, i) => {*/}
+                    {/*return <img*/}
+                        {/*style={{position: 'absolute', left: i * 5 + 'vw', top: '400px'}}*/}
+                        {/*id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>*/}
+                {/*})}*/}
+            {/*</div>*/}
         </div>
     );
 }
