@@ -3,31 +3,36 @@ import './World.css';
 import pin from '../../images/pushpin.png';
 import ReactTooltip from 'react-tooltip'
 import buddies from '../../images/BestBuddies.jpg';
+import chile from '../../images/world/chile.jpg';
+import nepal from '../../images/world/nepal.jpg';
+import jordan from '../../images/world/Jordan.jpg';
+import nyc from '../../images/world/nyc.jpg';
+import malaysia from '../../images/world/malaysia.png';
 
 const places = [
     {
         title: 'Chile',
         description: "Description of place 1",
         coords: [30,27],
-        img: buddies,
+        img: chile,
     },
     {
         title: 'Nepal',
         description: "Description of place 2",
         coords: [61,15],
-        img: buddies,
+        img: nepal,
     },
     {
         title: 'Jordan',
         description: "Description of place 3",
         coords: [51.3,14.8],
-        img: buddies,
+        img: jordan,
     },
     {
         title: 'New York',
         description: "Description of place 4",
         coords: [29.5,12.4],
-        img: buddies,
+        img: nyc,
     },
     {
         title: 'Blackburn',
@@ -39,7 +44,7 @@ const places = [
         title: 'Malaysia',
         description: "Description of place 6",
         coords: [66,20],
-        img: buddies,
+        img: malaysia,
     },
 ];
 

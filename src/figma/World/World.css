@@ -63,8 +63,8 @@
 }
 
 #tooltip-card {
-    width: 274px;
-    height: 205px;
+    width: 350px;
+    height: 180px;
     display: flex;
     flex-direction: row;
 
@@ -79,7 +79,7 @@
 }
 
 #tooltip-text {
-    width: 60%;
+    width: 50%;
 }
 
 #tooltip-title {
@@ -107,7 +107,25 @@
 }
 
 #tooltip-image {
-    width: 40%;
-
+    width: 50%;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+    #tooltip-card {
+        width: 250px;
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #tooltip-image {
+        display: none;
+    }
+
+    #tooltip-card {
+        width: 170px;
+        height: 100px;
+    }
+
 }

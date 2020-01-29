@@ -3,6 +3,42 @@ import './Team.css';
 import ReactSwipe from 'react-swipe';
 import buddies from '../../images/BestBuddies.jpg';
 import leftarrow from '../../images/left-arrow.svg';
+import aisha from '../../images/team/Aisha Greene.jpg';
+import aliceJ from '../../images/team/Alice Jiang.jpg';
+import aliceW from '../../images/team/Alice Wu.jpg';
+import beza from '../../images/team/Beza Gebremariam.jpg';
+import brooke from '../../images/team/Brooke Porter.jpg';
+import charlie from '../../images/team/Charlie Berman.jpg';
+import christina from '../../images/team/Christina Li.jpg';
+import claire from '../../images/team/Claire Gibbs.jpg';
+import dima from '../../images/team/Dima Fayyad.jpg';
+import doha from '../../images/team/Doha Ali.jpg';
+import erin from '../../images/team/Erin McDermott.jpg';
+import feroze from '../../images/team/Feroze Mohideen.jpg';
+import gabriel from '../../images/team/Gabriel Crowell.jpg';
+import janel from '../../images/team/Janel Ramkalawan.jpg';
+import jenny from '../../images/team/Jenny Chin.jpg';
+import joel from '../../images/team/Joel Kim.jpg';
+import julia from '../../images/team/Julia Searby.jpg';
+import kam from '../../images/team/Kameron Sedigh.JPG';
+import katie from '../../images/team/Katie Cassedy.jpg';
+import mariaE from '../../images/team/Maria Espinosa.jpg';
+import mariaN from '../../images/team/Maria Naclerio.jpg';
+import matt from '../../images/team/Matthew O’Boyle.jpg';
+import michaelT from '../../images/team/Michael Tan .jpeg';
+import michaelZ from '../../images/team/Michael Zhang.jpg';
+import naira from '../../images/team/Naira Ikram.jpg';
+import nick from '../../images/team/Nick Turecky.jpg';
+import nico from '../../images/team/Nico Bodkin.jpg';
+import rasheca from '../../images/team/Rasheca Logendran.jpg';
+import saheel from '../../images/team/Saheel Chodavadia.jpg';
+import selin from '../../images/team/Selin Ocal.jpg';
+import shreya from '../../images/team/Shreya Bhatia.jpg';
+import spencer from '../../images/team/Spencer Lafata.jpg';
+import zoe from '../../images/team/Zoe King.jpg';
+
+
+
 
 class Team extends React.Component {
     constructor(props) {
@@ -12,226 +48,169 @@ class Team extends React.Component {
         };
          this.quotes = [
             {
-                author: 'Matthew O\'Boyle1',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
+                author: 'Aisha Greene',
+                year: '2022',
+                image: aisha,
             },
-            {
-                author: 'Feroze fds2',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby But3t',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'Erin McDerm4ott',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'fsdd na5me',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
-            {
-                author: 'Matthew O\'B6oyle',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
-            },
-            {
-                author: 'Feroze Moh7ideen',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby f8s',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'asd McDer9mott',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Another nam10e',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
-            {
-                author: 'Matthew O\'B11oyle',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
-            },
-            {
-                author: 'Feroze Mohid12een',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby f13ds',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'Erin McDerm14ott',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Another na15me',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
-            {
-                author: 'Matthew O\'Bo16yle',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
-            },
-            {
-                author: 'czx Mohide17en',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby B18utt',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'Erin fs19df',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Another na20me',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
-            {
-                author: 'Matthew O\'fd21sf',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
-            },
-            {
-                author: 'Feroze Mohid22een',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby Butt23',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'Erin McDerm24ott',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Another nam25e',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
-            {
-                author: 'Erin McDer26mott',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Another n27ame',
-                year: '2020',
-                image: buddies,
-                quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
-            },
-            {
-                author: 'Matthew O\'B28oyle',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
-            },
-            {
-                author: 'czx Mohide29en',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby Butt30',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'Erin fsd31f',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Matthew 32O\'Boyle',
-                year: '2020',
-                image: buddies,
-                quote: 'I’ve been fortunate to get to know Archana through Duke Conversations over the last two years. Working on a close-knit team, I saw Archana’s talent not just for getting the job done, but also for making everyone feel that they had a stake in the outcome.'
-            },
-            {
-                author: 'czx Moh33ideen',
-                year: '2020',
-                image: buddies,
-                quote: 'gf ngfdng fdjkg fdkjg fdkgj fgkjf dkgj fdjkg fdkjg fsjkgfskjgdfggfdg'
-            },
-            {
-                author: 'Ibby Bu34tt',
-                year: '2020',
-                image: buddies,
-                quote: 'fg jkg fdkjg fkg dfgkjf dgkj fdgjk gkj gkvj dvbkj tbkvj tvkjbr vkjr vjk rjvrtjv krv'
-            },
-            {
-                author: 'Erin fs35df',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                author: 'Erin McD36ermott',
-                year: '2020',
-                image: buddies,
-                quote: 'fgk ndgfs dmfgjkdfs gjkrfs vgvf msv fnbvx hsb xvmvxkvm ncxbmnb bnbmcdnx nvsn nfvfmvcndcvdnv nfv vnfvn vf hvnmv fsvnm n'
-            },
-            {
-                 author: 'Another 37name',
+             {
+                 author: 'Alice Jiang',
                  year: '2020',
-                 image: buddies,
-                 quote: 'sfgbj sbvxfbjds bvsbfjdsv cxbdfjnvcjx mbsfjnv bmsfdsvncxv msbdmcvmbnvd bcxnlvds bcksdn bcsdkfnds vbdfnv sbdmfndsv mdfnlsvm sdfnvm dsfnvcsd mfbdnvcsdf mbdsvncsd fbmsvndf bdskvjnfb bdsvjnfbeb dsnjkb dsk'
+                 image: aliceJ,
+             },
+             {
+                 author: 'Alice Wu',
+                 year: '2022',
+                 image: aliceW,
+             },
+             {
+                 author: 'Beza Gebremariam',
+                 year: '2020',
+                 image: beza,
+             },
+             {
+                 author: 'Brooke Porter',
+                 year: '2020',
+                 image: brooke,
+             },
+             {
+                 author: 'Charlie Berman',
+                 year: '2020',
+                 image: charlie,
+             },
+             {
+                 author: 'Christina Li',
+                 year: '2020',
+                 image: christina,
+             },
+             {
+                 author: 'Claire Gibbs',
+                 year: '2020',
+                 image: claire,
+             },
+             {
+                 author: 'Dima Fayyad',
+                 year: '2020',
+                 image: dima,
+             },
+             {
+                 author: 'Doha Ali',
+                 year: '2021',
+                 image: doha,
+             },
+             {
+                 author: 'Erin McDermott',
+                 year: '2020',
+                 image: erin,
+             },
+             {
+                 author: 'Feroze Mohideen',
+                 year: '2020',
+                 image: feroze,
+             },
+             {
+                 author: 'Gabriel Crowell',
+                 year: '2020',
+                 image: gabriel,
+             },
+             {
+                 author: 'Janel Ramkalawan',
+                 year: '2020',
+                 image: janel,
+             },
+             {
+                 author: 'Jenny Chin',
+                 year: '2020',
+                 image: jenny,
+             },
+             {
+                 author: 'Joel Kim',
+                 year: '2022',
+                 image: joel,
+             },
+             {
+                 author: 'Julia Searby',
+                 year: '2020',
+                 image: julia,
+             },
+             {
+                 author: 'Kameron Sedigh',
+                 year: '2020',
+                 image: kam,
+             },
+             {
+                 author: 'Katie Cassedy',
+                 year: '2020',
+                 image: katie,
+             },
+             {
+                 author: 'Maria Espinosa',
+                 year: '2020',
+                 image: mariaE,
+             },
+             {
+                 author: 'Maria Naclerio',
+                 year: '2020',
+                 image: mariaN,
+             },
+             {
+                 author: 'Matthew O\'Boyle',
+                 year: '2020',
+                 image: matt,
+             },
+             {
+                 author: 'Michael Tan',
+                 year: '2020',
+                 image: michaelT,
+             },
+             {
+                 author: 'Michael Zhang',
+                 year: '2020',
+                 image: michaelZ,
+             },
+             {
+                 author: 'Naira Ikram',
+                 year: '2022',
+                 image: naira,
+             },
+             {
+                 author: 'Nick Turecky',
+                 year: '2021',
+                 image: nick,
+             },
+             {
+                 author: 'Nico Bodkin',
+                 year: '2020',
+                 image: nico,
+             },
+             {
+                 author: 'Rasheca Logendran',
+                 year: '2020',
+                 image: rasheca,
+             },
+             {
+                 author: 'Saheel Chodavadia',
+                 year: '2020',
+                 image: saheel,
+             },
+             {
+                 author: 'Selin Ocal',
+                 year: '2020',
+                 image: selin,
+             },
+             {
+                 author: 'Shreya Bhatia',
+                 year: '2020',
+                 image: shreya,
+             },
+             {
+                 author: 'Spencer Lafata',
+                 year: '2021',
+                 image: spencer,
+             },
+             {
+                 author: 'Zoe King',
+                 year: '2021',
+                 image: zoe,
              },
         ];
     }
@@ -280,7 +259,7 @@ class Team extends React.Component {
                                                     left: ((j % elementsPerRow) * 29) + 'vw',
                                                     top: (Math.floor(j / elementsPerRow) * 25) + 'vw',
                                                 }}>
-                                        <img id={'small-photo-image'} src={buddies} />
+                                        <img id={'small-photo-image'} src={quotes[(i*numElements) + j].image} />
                                     </div>
                                 })}
                                 {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
@@ -341,7 +320,7 @@ class Team extends React.Component {
                                                     // left: ((j%5)*17.6).toString() + 'vw',
                                                     // top: j < 5 ? 0 : '20vw',
                                                 }}>
-                                        <img id={'big-photo-image'} src={buddies} />
+                                        <img id={'big-photo-image'} src={quotes[(i*numElements) + j].image} />
                                     </div>
                                 })}
                                 {[...Array(Math.min(numElements, quotes.length - i*numElements - 1)).keys()].map((elem, j) => {
