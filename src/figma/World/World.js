@@ -65,7 +65,7 @@ function World() {
                             />
                         </div>
 
-                        <ReactTooltip id={"tip " + i} effect={'solid'} className={'custom-tooltip'}>
+                        <ReactTooltip id={"tip " + i} effect={'solid'} className={'custom-tooltip'} scrollHide={false}>
                             <div id={'tooltip-card'}>
                                 <div id={'tooltip-text'}>
                                     <div id={'tooltip-title'}>

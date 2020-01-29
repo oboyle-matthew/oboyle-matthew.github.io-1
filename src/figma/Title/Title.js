@@ -25,14 +25,13 @@ function Title() {
                     </div>
                     <div class="item-bar">
                         {/*<div class="item"> <div><h3><a href="#home">HOME</a></h3> </div></div>*/}
-                        <div class="item"> <div><h3><Link smooth to="/#About">ABOUT</Link></h3> </div></div>
-                        <div class="item"> <div><h3><Link smooth to="/#WhyYT">MISSION</Link></h3></div> </div>
-                        <div class="item"> <div><h3><Link smooth to="/#World">GLOBAL</Link></h3></div> </div>
-                        <div class="item"> <div><h3><Link smooth to="/#AtDuke">DUKE</Link></h3></div> </div>
-                        <div class="item"> <div><h3><Link smooth to="/#About">ENDORSEMENTS</Link></h3></div> </div>
-                        <div class="item"> <div><h3><Link smooth to="/#Friends">FRIENDS</Link></h3></div> </div>
-                        <div class="item"> <div><h3><Link smooth to="/#team-title">TEAM</Link></h3></div> </div>
-                        <div class="item"> <div><h3><Link smooth to="/#Connect">CONNECT</Link></h3></div> </div>
+                        <div class="item"><Link smooth to="/#About"> <div><h3>ABOUT</h3></div> </Link></div>
+                        <div class="item"><Link smooth to="/#WhyYT"> <div><h3>MISSION</h3></div> </Link></div>
+                        <div class="item"><Link smooth to="/#World"> <div><h3>GLOBAL</h3></div> </Link></div>
+                        <div class="item"><Link smooth to="/#AtDuke"> <div><h3>DUKE</h3></div> </Link></div>
+                        <div class="item"><Link smooth to="/#Friends"> <div><h3>FRIENDS</h3></div> </Link></div>
+                        <div class="item"><Link smooth to="/#team-title"> <div><h3>TEAM</h3></div> </Link></div>
+                        <div class="item"><Link smooth to="/#Connect"> <div><h3>CONNECT</h3></div> </Link></div>
                               {/* <DropdownMenu>
         <MenuItem text='Home' location='/simple' />
         <MenuItem text='Edit Profile' location='/simple' />
