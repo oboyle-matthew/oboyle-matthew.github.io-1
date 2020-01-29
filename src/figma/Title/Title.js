@@ -18,14 +18,14 @@ function Title() {
 
                     </div>
                     <div class="item-bar">
-                        <div class="item"> <div><h3><a href="#home">HOME</a></h3> </div></div>
-                        <div class="item"> <div><h3><a href="#meetibby">MEET IBBY</a></h3> </div></div>
+                        {/*<div class="item"> <div><h3><a href="#home">HOME</a></h3> </div></div>*/}
+                        <div class="item"> <div><h3><a href="#about">ABOUT</a></h3> </div></div>
                         <div class="item"> <div><h3><a href="#mission">MISSION</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#aroundtheworld">AROUND THE WORLD</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#ibbyatduke">IBBY AT DUKE</a></h3></div> </div>
+                        <div class="item"> <div><h3><a href="#aroundtheworld">GLOBAL</a></h3></div> </div>
+                        <div class="item"> <div><h3><a href="#ibbyatduke">DUKE</a></h3></div> </div>
                         <div class="item"> <div><h3><a href="#endorsements">ENDORSEMENTS</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#friendsofibby">FRIENDS OF IBBY</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#theteam">THE TEAM</a></h3></div> </div>
+                        <div class="item"> <div><h3><a href="#friendsofibby">FRIENDS</a></h3></div> </div>
+                        <div class="item"> <div><h3><a href="#theteam">TEAM</a></h3></div> </div>
                     </div>
 
                 </div>
