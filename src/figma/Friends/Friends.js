@@ -2,6 +2,7 @@ import React from 'react';
 import './Friends.css';
 import ReactSwipe from 'react-swipe';
 import buddies from '../../images/BestBuddies.jpg';
+import leftarrow from '../../images/left-arrow.svg';
 
 
 function Friends() {
@@ -40,8 +41,9 @@ function Friends() {
     let reactSwipeEl;
     return (
         <div id={"friends-container"}>
-            <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
-            <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
+            <div class="friends-title"><h2>Friends of Ibby</h2></div>
+            <div onClick={() => reactSwipeEl.prev()} id={"arrow-left-friends"}><img src={leftarrow} /></div>
+            <div onClick={() => reactSwipeEl.next()} id={"arrow-right-friends"}><img src={leftarrow} /></div>
             <ReactSwipe
                 id={"swipe-container"}
                 swipeOptions={{ continuous: true }}

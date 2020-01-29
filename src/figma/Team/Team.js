@@ -2,6 +2,7 @@ import React from 'react';
 import './Team.css';
 import ReactSwipe from 'react-swipe';
 import buddies from '../../images/BestBuddies.jpg';
+import leftarrow from '../../images/left-arrow.svg';
 
 class Team extends React.Component {
     constructor(props) {
@@ -307,8 +308,8 @@ class Team extends React.Component {
                         </div>
                     })}
                 </ReactSwipe>
-                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
-                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
+                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}><img src={leftarrow}/></div>
+                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}><img src={leftarrow}/></div>
             </div>
         )
 
@@ -370,8 +371,8 @@ class Team extends React.Component {
                     })}
                 </ReactSwipe>
 
-                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}/>
-                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}/>
+                <div onClick={() => reactSwipeEl.prev()} id={"arrow-left"}><img src={leftarrow}/></div>
+                <div onClick={() => reactSwipeEl.next()} id={"arrow-right"}><img src={leftarrow}/></div>
             </div>
         );
 

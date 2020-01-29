@@ -122,3 +122,10 @@
         width: 90%;
     }
 }
+
+.atduke-title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -3%;
+}
