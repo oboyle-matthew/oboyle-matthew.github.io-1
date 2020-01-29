@@ -2,7 +2,11 @@
     position: relative;
     width: 100%;
     height: 663px;
-    border: 2px yellow solid;
+    background-image:    url('../../images/friendsofibbybg.svg');
+    background-size:     100% 100%;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    /* border: red 2px solid; */
 }
 
 #swipe-container {
@@ -77,29 +81,46 @@
     color: #397377;
 }
 
-#arrow-left {
+#arrow-left-friends {
     position: absolute;
     width: 3.5px;
     height: 0px;
-    left: 32px;
-    top: 344px;
+    left: 3vw;
+    top: 50%;
     z-index: 5;
 
-    border: 6px solid rgba(74, 153, 115, 0.7);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#arrow-right-friends {
+    position: absolute;
+    width: 3.5px;
+    height: 0px;
+    left: 97vw;
+    top: 57%;
+    z-index: 5;
+
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(-180deg);
+
 }
 
-#arrow-right {
-    position: absolute;
-    width: 3.5px;
-    height: 0px;
-    left: 1395.5px;
-    top: 344px;
-    z-index: 5;
+.friends-title {
+    width: 100%;
+    margin-bottom: -15%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 82px;
+    /* display: flex;
+    align-items: center; */
 
-    border: 6px solid rgba(74, 153, 115, 0.7);
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #1A936F;
+}
+
+.friends-title h2 {
+    padding-left: 2%;
+
 }
