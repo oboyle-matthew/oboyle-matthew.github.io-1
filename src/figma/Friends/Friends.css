@@ -10,10 +10,6 @@
     /* border: red 2px solid; */
 }
 
-#swipe-container {
-    height: 660px;
-}
-
 #quote-container {
     display: flex;
     flex-direction: row;
@@ -130,6 +126,5 @@
     #quote-text-container {
         width: 90%;
     }
-
 
 }
