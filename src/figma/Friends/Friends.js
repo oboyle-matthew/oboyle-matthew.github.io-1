@@ -43,7 +43,7 @@ function Friends() {
         <div id={"friends-container"}>
             <div class="friends-title"><h2>Friends of Ibby</h2></div>
             <ReactSwipe
-                id={"swipe-container"}
+                id={"swipe-container-friends"}
                 swipeOptions={{ continuous: true }}
                 ref={el => (reactSwipeEl = el)}
             >

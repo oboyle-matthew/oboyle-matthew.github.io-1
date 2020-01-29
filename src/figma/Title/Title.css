@@ -117,13 +117,12 @@
     margin-right: 30px;
 }
 .item-bar {
-    z-index: 20;
+    z-index: 2;
     flex: 1;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
-    z-index: 20;
 }
 .item, .item a {
     color: white;

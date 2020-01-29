@@ -2,7 +2,11 @@ import React from 'react';
 import './Title.css';
 import ibby from '../../images/ibby_cutout.png';
 import Typing from 'react-typing-animation';
+import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu';
 
+
+
+const variant = 'Success';
 function Title() {
     return (
 
@@ -27,7 +31,14 @@ function Title() {
                         <div class="item"> <div><h3><a href="#friendsofibby">FRIENDS</a></h3></div> </div>
                         <div class="item"> <div><h3><a href="#theteam">TEAM</a></h3></div> </div>
                         <div class="item"> <div><h3><a href="#connect">CONNECT</a></h3></div> </div>
+                              {/* <DropdownMenu>
+        <MenuItem text='Home' location='/simple' />
+        <MenuItem text='Edit Profile' location='/simple' />
+        <MenuItem text='Logout' location='/simple' />
+      </DropdownMenu> */}
+
                     </div>
+                    
 
                 </div>
             <div class="content">
