@@ -264,7 +264,7 @@ class Team extends React.Component {
         const elementsPerRow = 3;
         return (
             <div id={"team-container"}>
-                <div id={"team-title"}>The Team</div>
+                <div id={"team-title"}><p style={{'margin-left': '5%'}}>The Team</p></div>
                 <ReactSwipe
                     id={"swipe-container"}
                     swipeOptions={{ continuous: true }}
@@ -323,7 +323,7 @@ class Team extends React.Component {
         const elementsPerRow = 5;
         return (
             <div id={"team-container"}>
-                <div id={"team-title"}>The Team</div>
+                <div id={"team-title"}><p style={{'margin-left': '5%'}}>The Team</p></div>
                 <ReactSwipe
                     id={"swipe-container"}
                     swipeOptions={{ continuous: true }}
