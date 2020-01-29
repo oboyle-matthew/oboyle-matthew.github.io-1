@@ -40,7 +40,7 @@ function Friends() {
     ];
     let reactSwipeEl;
     return (
-        <div id={"friends-container"}>
+        <div id={"Friends"}>
             <div class="friends-title"><h2>Friends of Ibby</h2></div>
             <ReactSwipe
                 id={"swipe-container-friends"}

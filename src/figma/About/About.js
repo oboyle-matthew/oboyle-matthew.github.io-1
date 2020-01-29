@@ -5,7 +5,7 @@ import sig from '../../images/signature.svg';
 
 function About() {
     return (
-        <div className={"about-container"}>
+        <div className={"about-container"} id="About">
             {/*
             */}
 

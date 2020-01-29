@@ -68,10 +68,10 @@ function App() {
         <Title/>
             <About/>
             <WhyYoungTrustee/>
-            <Friends/>
-            <Team/>
             <World/>
             <AtDuke/>
+            <Friends/>
+            <Team/>
             <Connect/>
         </div>
     )
