@@ -16,6 +16,18 @@ function Team() {
 
     ];
     return (
+<<<<<<< HEAD
+        <div >
+            <ul id="team">
+            {people.map(person => {
+                return <div id={"person"}>
+                    <img id={"person-pic"} src={person.img} />
+                    <p id={"person-name"}>{person.name}</p>
+                </div>
+            })}
+            </ul>
+        </div>
+=======
         <Container id="team">
             <Row>
                 {people.map(person => {
@@ -26,6 +38,7 @@ function Team() {
                 })}
             </Row>
         </Container>
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
     );
 }
 

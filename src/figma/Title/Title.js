@@ -7,8 +7,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import {BrowserRouter as Router} from 'react-router-dom';
 
 
-
-
 const variant = 'Success';
 function Title() {
     return (
@@ -42,7 +40,22 @@ function Title() {
       </DropdownMenu> */}
 
                     </div>
-                    
+                    {/*<Dropdown id={'dropdown-menu'}>*/}
+                        {/*<DropdownTrigger>Profile</DropdownTrigger>*/}
+                        {/*<DropdownContent>*/}
+                            {/*<ul>*/}
+                                {/*<li>*/}
+                                    {/*<a href="/profile">Profile</a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                    {/*<a href="/favorites">Favorites</a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                    {/*<a href="/logout">Log Out</a>*/}
+                                {/*</li>*/}
+                            {/*</ul>*/}
+                        {/*</DropdownContent>*/}
+                    {/*</Dropdown>*/}
 
                 </div>
             <div class="content">

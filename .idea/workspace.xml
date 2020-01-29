@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c009f3c7-6550-4081-8a03-2b380c89bc3f" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Team/Team.js" afterPath="$PROJECT_DIR$/src/sections/Team/Team.js" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Title/Title.css" afterPath="$PROJECT_DIR$/src/sections/Title/Title.css" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/figma/Friends/Friends.css" afterPath="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +23,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/About/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/About/About.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quotes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Title.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/Title/Title.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sections/Team/Team.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quotes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+=======
       <file leaf-file-name="Friends.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
               <folding />
             </state>
           </provider>
@@ -37,6 +119,8 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
       <file leaf-file-name="Title.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/figma/Title/Title.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,6 +133,7 @@
           </provider>
         </entry>
       </file>
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -102,7 +187,11 @@
         <option value="$PROJECT_DIR$/src/sections/Intro/Intro.js" />
         <option value="$PROJECT_DIR$/src/sections/Intro/Intro.css" />
         <option value="$PROJECT_DIR$/src/sections/Intro/Title.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/sections/Team/Team.css" />
+=======
         <option value="$PROJECT_DIR$/src/sections/Title/Title.css" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
         <option value="$PROJECT_DIR$/src/sections/Values/Values.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/sections/Map/Map.js" />
@@ -112,6 +201,11 @@
         <option value="$PROJECT_DIR$/src/sections/About/About.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/sections/Values/Values.css" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/sections/Title/Title.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/sections/Team/Team.js" />
+=======
         <option value="$PROJECT_DIR$/src/sections/Team/Team.css" />
         <option value="$PROJECT_DIR$/src/sections/Team/Team.js" />
         <option value="$PROJECT_DIR$/src/Section.js" />
@@ -137,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/figma/WhyYoungTrustee/WhyYoungTrustee.css" />
         <option value="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
         <option value="$PROJECT_DIR$/src/figma/Friends/Friends.js" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
       </list>
     </option>
   </component>
@@ -243,7 +338,18 @@
               <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
               <item name="ibby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ibby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="figma" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
               <item name="Title" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,12 +424,16 @@
       <option name="presentableId" value="Default" />
       <updated>1579732859457</updated>
       <workItem from="1579732861957" duration="7096000" />
-      <workItem from="1579847296700" duration="8383000" />
+      <workItem from="1579847296700" duration="9464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="16560000" />
+=======
     <option name="totallyTimeSpent" value="63761000" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -512,10 +622,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/Team/Team.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+=======
         <state relative-caret-position="183">
           <caret line="13" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="false" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
           </folding>
         </state>
       </provider>
@@ -587,6 +704,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sections/Organizations/Organizations.css">
+=======
     <entry file="file://$PROJECT_DIR$/src/sections/About/About.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -626,6 +746,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.css">
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-121">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -674,6 +795,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/package.json">
+=======
     <entry file="file://$PROJECT_DIR$/src/figma/About/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -683,6 +807,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -700,6 +825,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sections/Values/Values.css">
+=======
     <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-451">
@@ -719,6 +847,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/figma/WhyYoungTrustee/WhyYoungTrustee.js">
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
@@ -734,10 +863,55 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sections/Title/Title.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/Quotes/Quotes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/Values/Values.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/Team/Team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/src/figma/Title/Title.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="37" selection-end-column="1" />
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
           <folding>
             <marker date="1580284459073" expanded="true" signature="2678:2681" ph="{...}" />
           </folding>
