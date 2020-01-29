@@ -2,7 +2,7 @@ import React from 'react';
 import './World.css';
 import pin from '../../images/pushpin.png';
 import ReactTooltip from 'react-tooltip'
-import buddies from '../../images/BestBuddies.jpg';
+import nola from '../../images/world/nola.png';
 import chile from '../../images/world/chile.jpg';
 import nepal from '../../images/world/nepal.jpg';
 import jordan from '../../images/world/Jordan.jpg';
@@ -35,10 +35,10 @@ const places = [
         img: nyc,
     },
     {
-        title: 'Blackburn',
-        description: "Description of place 5",
-        coords: [43.3,9.2],
-        img: buddies,
+        title: 'New Orleans',
+        description: "Worked as a Management & Development Policy intern tasked with improving educational resources at a work skills empowerment organization for at risk youth in Central City, New Orleans! ",
+        coords: [26.2,14.9],
+        img: nola,
     },
     {
         title: 'Malaysia',
