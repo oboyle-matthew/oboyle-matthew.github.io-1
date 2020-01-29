@@ -22,20 +22,16 @@
 }
 
 #about-ibby {
-    position: absolute;
-    width: 328.62px;
-    height: 229.66px;
-    left: 482.08px;
-    top: 53px;
+
 
     /* font-family: Kollektif; */
     font-style: normal;
     font-weight: bold;
-    font-size: 101.505px;
-    line-height: 122px;
+    font-size: 70px;
     display: flex;
     align-items: center;
-    text-align: right;
+    text-align: center;
+    display: none;
 
     color: #1A936F;
 
@@ -47,9 +43,9 @@
     height: 430px;
     left: 775px;
     top: 136px; */
-    width: 45%;
+    width: 55%;
     height: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     /* left: 875px;
     right: 800px;
     top: 910px; */
@@ -81,14 +77,36 @@
 
 #ibby-cutout {
     position: absolute;
-    height: 543px;
-    width: auto;
-    left: 100px;
+    /*height: 70%;*/
+    /*width: auto;*/
+    left: 5%;
     top: 50px;
     width: 55%;
     /* width: 691px;
     height: 543px; */
-
-
     /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+@media only screen and (max-width: 800px) {
+    #ibby-cutout {
+        display: none;
+    }
+
+    .white-area {
+        display: none;
+    }
+
+    .beige-area {
+        width: 95%;
+        margin: auto;
+    }
+
+    #text-container {
+        width: 90%;
+    }
+
+    #about-ibby {
+        display: inline-block;
+        /*display: inline?-block;*/
+    }
 }
