@@ -32,9 +32,9 @@ function Title() {
             <div class="content">
 
                 <Typing>
-                    <div id="typing-title">Hi, I'm Ibby.</div>
+                    <div id="typing-title">Hi, I'm <span id="word-with-background">Ibby.</span></div>
                 </Typing>
-                <div id={'name-rectangle'}/>
+                {/*<div id={'name-rectangle'}/>*/}
 
             </div>
         </div>
