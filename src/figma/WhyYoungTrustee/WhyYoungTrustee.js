@@ -4,7 +4,7 @@ import why_yt_graphic from '../../images/why-yt-graphic.svg';
 
 function WhyYoungTrustee() {
     return (
-        <div id={"why-container"}>
+        <div id={"WhyYT"}>
             <div id={"left-background"}>
                 <img src={why_yt_graphic} class="whyyt"></img>
             </div>

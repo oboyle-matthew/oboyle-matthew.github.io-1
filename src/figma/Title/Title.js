@@ -3,6 +3,9 @@ import './Title.css';
 import ibby from '../../images/ibby_cutout.png';
 import Typing from 'react-typing-animation';
 import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu';
+import { HashLink as Link } from 'react-router-hash-link';
+import {BrowserRouter as Router} from 'react-router-dom';
+
 
 
 
@@ -12,6 +15,7 @@ function Title() {
 
         // <div class="main-container">
         //     <div class="ibby-pic"></div>
+        <Router>
         <div class="container">
                 <div class="navbar-holder">
                     <div class="logo">
@@ -23,14 +27,14 @@ function Title() {
                     </div>
                     <div class="item-bar">
                         {/*<div class="item"> <div><h3><a href="#home">HOME</a></h3> </div></div>*/}
-                        <div class="item"> <div><h3><a href="#about">ABOUT</a></h3> </div></div>
-                        <div class="item"> <div><h3><a href="#mission">MISSION</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#aroundtheworld">GLOBAL</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#ibbyatduke">DUKE</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#endorsements">ENDORSEMENTS</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#friendsofibby">FRIENDS</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#theteam">TEAM</a></h3></div> </div>
-                        <div class="item"> <div><h3><a href="#connect">CONNECT</a></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#About">ABOUT</Link></h3> </div></div>
+                        <div class="item"> <div><h3><Link smooth to="/#WhyYT">MISSION</Link></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#World">GLOBAL</Link></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#AtDuke">DUKE</Link></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#About">ENDORSEMENTS</Link></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#Friends">FRIENDS</Link></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#team-title">TEAM</Link></h3></div> </div>
+                        <div class="item"> <div><h3><Link smooth to="/#Connect">CONNECT</Link></h3></div> </div>
                               {/* <DropdownMenu>
         <MenuItem text='Home' location='/simple' />
         <MenuItem text='Edit Profile' location='/simple' />
@@ -50,6 +54,7 @@ function Title() {
 
             </div>
         </div>
+        </Router>
     );
 }
 

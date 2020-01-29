@@ -46,7 +46,7 @@ const places = [
 
 function World() {
     return (
-        <div className={"world-container"}>
+        <div className={"world-container"} id="World">
             <div class="intro" id={'world-title'}>
                 <h2>Ibby Around the World</h2>
             </div>

@@ -7,7 +7,7 @@ import join from '../../images/join.svg';
 
 function Connect() {
     return (
-        <div className={"connect-container"}>
+        <div className={"connect-container"} id="Connect">
             <div class="item-connect"><img src={connect}></img></div>
             <div class="item-connect"><a href="https://www.facebook.com/ibby4yt"><img src={fb}></img></a></div>
             <div class="item-connect"><a href="https://www.instagram.com/ib4yt/"><img src={insta}></img></a></div>

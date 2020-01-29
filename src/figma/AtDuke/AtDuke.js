@@ -52,7 +52,7 @@ function AtDuke() {
         },
     ];
     return (
-        <div className={"at-duke-container"}>
+        <div className={"at-duke-container"} id="AtDuke">
             <div class="cut">
                 {/* <div class="atduke-title"><h2>hi</h2></div> */}
                 <ReactSwipe
