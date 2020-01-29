@@ -8,19 +8,37 @@ const places = [
     {
         title: 'Title 1',
         description: "Description of place 1",
-        coords: [250,200],
+        coords: [20,40],
         img: buddies,
     },
     {
         title: 'Title 2',
         description: "Description of place 2",
-        coords: [560,-10],
+        coords: [30,10],
         img: buddies,
     },
     {
         title: 'Title 3',
         description: "Description of place 3",
-        coords: [650,170],
+        coords: [70,60],
+        img: buddies,
+    },
+    {
+        title: 'Title 4',
+        description: "Description of place 4",
+        coords: [35,10],
+        img: buddies,
+    },
+    {
+        title: 'Title 5',
+        description: "Description of place 5",
+        coords: [70,10],
+        img: buddies,
+    },
+    {
+        title: 'Title 6',
+        description: "Description of place 6",
+        coords: [50,50],
         img: buddies,
     },
 ];
@@ -36,7 +54,7 @@ function World() {
                 {places.map((place, i) => {
                     return <div>
                         <img className={'face'} id={'pushpin'} src={pin}
-                                style={{left: place.coords[0], top: place.coords[1]}}
+                                style={{left: place.coords[0] + "vw", top: (0.35 * place.coords[1]) + "vw"}}
                             data-tip data-for={"tip " + i}
                         />
                         <ReactTooltip id={"tip " + i} effect={'solid'} className={'custom-tooltip'}>

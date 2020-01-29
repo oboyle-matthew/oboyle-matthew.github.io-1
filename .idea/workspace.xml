@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c009f3c7-6550-4081-8a03-2b380c89bc3f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/figma/Friends/Friends.css" afterPath="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
+      <change beforePath="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" afterPath="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" />
+      <change beforePath="$PROJECT_DIR$/src/figma/World/World.css" afterPath="$PROJECT_DIR$/src/figma/World/World.css" />
+      <change beforePath="$PROJECT_DIR$/src/figma/World/World.js" afterPath="$PROJECT_DIR$/src/figma/World/World.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,38 +33,8 @@
       <file leaf-file-name="AtDuke.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="276">
               <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friends.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friends.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/figma/Friends/Friends.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,20 +43,30 @@
       <file leaf-file-name="AtDuke.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="459">
+              <caret line="115" column="36" lean-forward="false" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Title.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/figma/Title/Title.css">
+      <file leaf-file-name="World.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/figma/World/World.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="World.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/figma/World/World.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding>
-                <marker date="1580250149315" expanded="true" signature="2759:2762" ph="{...}" />
+                <marker date="1580276721950" expanded="true" signature="819:878" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,8 +104,8 @@
       <find>smallScreen</find>
       <find>card-container</find>
       <find>selector-box</find>
-      <find>card-img</find>
       <find>reactSwipeEl</find>
+      <find>card-img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,17 +142,17 @@
         <option value="$PROJECT_DIR$/src/sections/Organizations/Organizations.js" />
         <option value="$PROJECT_DIR$/src/figma/Connect/Connect.js" />
         <option value="$PROJECT_DIR$/src/figma/Connect/Connect.css" />
-        <option value="$PROJECT_DIR$/src/figma/World/World.js" />
-        <option value="$PROJECT_DIR$/src/figma/World/World.css" />
         <option value="$PROJECT_DIR$/src/figma/Title/Title.js" />
         <option value="$PROJECT_DIR$/src/figma/Title/Title.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/figma/Team/Team.css" />
-        <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" />
         <option value="$PROJECT_DIR$/src/figma/Team/Team.js" />
         <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js" />
         <option value="$PROJECT_DIR$/src/figma/Friends/Friends.js" />
         <option value="$PROJECT_DIR$/src/figma/Friends/Friends.css" />
+        <option value="$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css" />
+        <option value="$PROJECT_DIR$/src/figma/World/World.css" />
+        <option value="$PROJECT_DIR$/src/figma/World/World.js" />
       </list>
     </option>
   </component>
@@ -285,6 +266,13 @@
               <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
               <item name="ibby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="figma" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ibby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ibby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -344,7 +332,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52230000" />
+    <option name="totallyTimeSpent" value="54775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -396,14 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sections/Values/Values.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -657,26 +637,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/World/World.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1580252704562" expanded="true" signature="852:913" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/World/World.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/why-yt-graphic.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -748,26 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/figma/Team/Team.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -784,6 +728,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/AtDuke/AtDuke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="115" column="36" lean-forward="false" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/Map.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/World/World.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <marker date="1580276721950" expanded="true" signature="819:878" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/figma/World/World.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
