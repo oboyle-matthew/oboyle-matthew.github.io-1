@@ -9,9 +9,9 @@ function Connect() {
     return (
         <div className={"connect-container"} id="Connect">
             <div class="item-connect"><img src={connect}></img></div>
-            <div class="item-connect"><a href="https://www.facebook.com/ibby4yt"><img src={fb}></img></a></div>
-            <div class="item-connect"><a href="https://www.instagram.com/ib4yt/"><img src={insta}></img></a></div>
-            <div class="item-connect"><a href="https://forms.gle/KC2a1oUCupvp4XEG6"><img src={join}></img></a></div>
+            <div class="item-connect"><a target={"_blank"} href="https://www.facebook.com/ibby4yt"><img src={fb}></img></a></div>
+            <div class="item-connect"><a target={"_blank"}  href="https://www.instagram.com/ib4yt/"><img src={insta}></img></a></div>
+            <div class="item-connect"><a target={"_blank"}  href="https://forms.gle/KC2a1oUCupvp4XEG6"><img src={join}></img></a></div>
 
         </div>
     );
