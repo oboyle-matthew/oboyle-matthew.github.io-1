@@ -6,39 +6,39 @@ import buddies from '../../images/BestBuddies.jpg';
 
 const places = [
     {
-        title: 'Title 1',
+        title: 'Chile',
         description: "Description of place 1",
-        coords: [20,40],
+        coords: [30,27],
         img: buddies,
     },
     {
-        title: 'Title 2',
+        title: 'Nepal',
         description: "Description of place 2",
-        coords: [30,10],
+        coords: [61,15],
         img: buddies,
     },
     {
-        title: 'Title 3',
+        title: 'Jordan',
         description: "Description of place 3",
-        coords: [70,60],
+        coords: [51.3,14.8],
         img: buddies,
     },
     {
-        title: 'Title 4',
+        title: 'New York',
         description: "Description of place 4",
-        coords: [35,10],
+        coords: [29.5,12.4],
         img: buddies,
     },
     {
-        title: 'Title 5',
+        title: 'Blackburn',
         description: "Description of place 5",
-        coords: [70,10],
+        coords: [43.3,9.2],
         img: buddies,
     },
     {
-        title: 'Title 6',
+        title: 'Malaysia',
         description: "Description of place 6",
-        coords: [50,50],
+        coords: [66,20],
         img: buddies,
     },
 ];
@@ -47,16 +47,19 @@ const places = [
 function World() {
     return (
         <div className={"world-container"}>
-            <div class="intro">
+            <div class="intro" id={'world-title'}>
                 <h2>Ibby Around the World</h2>
             </div>
             <div class="map-container">
                 {places.map((place, i) => {
                     return <div>
-                        <img className={'face'} id={'pushpin'} src={pin}
-                                style={{left: place.coords[0] + "vw", top: (0.35 * place.coords[1]) + "vw"}}
-                            data-tip data-for={"tip " + i}
-                        />
+                        <div id={'pushpin-container'}>
+                            <img className={'face'} id={'pushpin'} src={pin}
+                                 style={{left: place.coords[0] + "vw", top: place.coords[1] + "vw"}}
+                                 data-tip data-for={"tip " + i}
+                            />
+                        </div>
+
                         <ReactTooltip id={"tip " + i} effect={'solid'} className={'custom-tooltip'}>
                             <div id={'tooltip-card'}>
                                 <div id={'tooltip-title'}>

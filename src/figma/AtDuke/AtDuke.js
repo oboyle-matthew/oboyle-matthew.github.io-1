@@ -54,32 +54,33 @@ function AtDuke() {
     return (
         <div className={"at-duke-container"}>
             <div class="cut">
-            <ReactSwipe
-                id={'card-container'}
-                swipeOptions={{ continuous: true }}
-                ref={el => (reactSwipeEl = el)}
-            >
-                {screens.map((screen, i) => {
-                    return <div>
-                        <img id={'card-img'} src={screen.img} />
-                        <div id={'card-title'}>{screen.title}</div>
-                        <div id={'card-description'}>{screen.description}</div>
-                    </div>
-                })}
-            </ReactSwipe>
+                {/* <div class="atduke-title"><h2>hi</h2></div> */}
+                <ReactSwipe
+                    id={'card-container'}
+                    swipeOptions={{ continuous: true }}
+                    ref={el => (reactSwipeEl = el)}
+                >
+                    {screens.map((screen, i) => {
+                        return <div>
+                            <img id={'card-img'} src={screen.img} />
+                            <div id={'card-title'}>{screen.title}</div>
+                            <div id={'card-description'}>{screen.description}</div>
+                        </div>
+                    })}
+                </ReactSwipe>
             </div>
             <div id={'selector-box'}>
                 {screens.map((screen, i) => {
                     return <img
-                        style={{position: 'absolute', left: (i%3) * 10.5 + 'vw', top: Math.floor(i/3) * 150 + 'px'}}
-                        id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                        style={{ position: 'absolute', left: (i % 3) * 10.5 + 'vw', top: Math.floor(i / 3) * 150 + 'px' }}
+                        id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)} />
                 })}
             </div>
             <div id={'below-selector-box'}>
                 {screens.map((screen, i) => {
                     return <div id={'selector-icon-container'}>
                         <img
-                            id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)}/>
+                            id={"selector-icon"} src={screen.img} onClick={() => reactSwipeEl.slide(i, 1000)} />
                     </div>
                 })}
             </div>
