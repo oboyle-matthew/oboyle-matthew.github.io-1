@@ -62,12 +62,13 @@ function World() {
 
                         <ReactTooltip id={"tip " + i} effect={'solid'} className={'custom-tooltip'}>
                             <div id={'tooltip-card'}>
-                                <div id={'tooltip-title'}>
-                                    {place.title}
-                                </div>
-                                <div id={'tooltip-description'}>
-                                    {place.description}
-
+                                <div id={'tooltip-text'}>
+                                    <div id={'tooltip-title'}>
+                                        {place.title}
+                                    </div>
+                                    <div id={'tooltip-description'}>
+                                        {place.description}
+                                    </div>
                                 </div>
                                 <img src={place.img} id={'tooltip-image'}/>
                             </div>
