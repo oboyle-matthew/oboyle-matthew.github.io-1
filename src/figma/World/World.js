@@ -12,25 +12,25 @@ import malaysia from '../../images/world/malaysia.png';
 const places = [
     {
         title: 'Chile',
-        description: "Description of place 1",
+        description: "Spent a month in Chile as a researcher, advocate and student. I learnt about Chile’s troublesome past but also sat with leaders of the future, where they shared their hopes and dreams of a more equal Chile with me!",
         coords: [30,27],
         img: chile,
     },
     {
         title: 'Nepal',
-        description: "Description of place 2",
+        description: "In Nepal, I worked with class, race and gender based organizations to learn more about the troubled history of these identities both in Nepal and across South Asia. I still speak to my host family from Nepal regularly!  ",
         coords: [61,15],
         img: nepal,
     },
     {
         title: 'Jordan',
-        description: "Description of place 3",
+        description: "Jordan was the perfect way to wrap up my trip, where I learnt more about the dynamic nature of the Middle East and the current fight for further rights across the Arab world. I was able to see Amman, Petra, Wadi Rum and many more places that were of such cultural, religious and historical importance!",
         coords: [51.3,14.8],
         img: jordan,
     },
     {
         title: 'New York',
-        description: "Description of place 4",
+        description: "I got to work in the most incredible city in the world this past summer where I served as an intern for PEN America, a freedom of information think tank dedicated to protecting ideas of freedom of the press and freedom of speech. ",
         coords: [29.5,12.4],
         img: nyc,
     },
@@ -42,7 +42,7 @@ const places = [
     },
     {
         title: 'Malaysia',
-        description: "Description of place 6",
+        description: "Was able to serve Fugee School in Malaysia as a Refugee policy intern in their Development team and tasked with innovating aspects of their social empowerment schemes and improving access to opportunities for refugee youth.  ",
         coords: [66,20],
         img: malaysia,
     },
