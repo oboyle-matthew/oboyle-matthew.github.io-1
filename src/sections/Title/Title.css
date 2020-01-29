@@ -43,7 +43,11 @@
     height: 100%;
     width: 100%;
     /* margin-top: 70px; */
+<<<<<<< HEAD
     /*margin-top: 70px;*/
+=======
+    /* margin-top: 70px; */
+>>>>>>> 9bfdd86d06b5822b5d705423d3159ce7e0c9abdb
   }
   
   
@@ -57,12 +61,13 @@
   }
   
   .header-content h1 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Glacial Indifference', sans-serif;
     /* font-family: 'Avenir-next'; */
     font-size: 4.5em;
     font-weight: 400;
     margin-bottom: 200px;
     color: #fff;
+    justify-content: right;
   }
   
   .header-content p {
@@ -89,6 +94,11 @@
       color: #6aa84f
   }
   .strokeme {
-    color: black;
+    color: white;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 5rem;
+  }
+
+  body {
+      text-align: right;
   }

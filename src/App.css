@@ -9,3 +9,15 @@ p, h1, h2, h3, h4, h5 {
 h1 {
     margin: 0;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

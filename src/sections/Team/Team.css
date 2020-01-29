@@ -1,15 +1,14 @@
 #person-pic {
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
-}
-
-#team {
-    display: flex;
-    flex-direction: row;
-    max-width: 100vw;
+    border: 5px solid green;
 }
 
 #person {
     margin: 5px;
+}
+
+#team {
+    background-color: yellow;
 }
