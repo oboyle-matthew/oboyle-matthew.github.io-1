@@ -42,8 +42,6 @@ function Friends() {
     return (
         <div id={"friends-container"}>
             <div class="friends-title"><h2>Friends of Ibby</h2></div>
-            <div onClick={() => reactSwipeEl.prev()} id={"arrow-left-friends"}><img src={leftarrow} /></div>
-            <div onClick={() => reactSwipeEl.next()} id={"arrow-right-friends"}><img src={leftarrow} /></div>
             <ReactSwipe
                 id={"swipe-container"}
                 swipeOptions={{ continuous: true }}
@@ -51,10 +49,13 @@ function Friends() {
             >
                 {quotes.map((quote, i) => {
                     return <div id={"quote-container"}>
+                        <div onClick={() => reactSwipeEl.prev()} class={"arrow-friends"}><img src={leftarrow} /></div>
                         <img key={i} id={"friend-pic"} src={quote.image}/>
-                        <div id={"quote-string"}>"</div>
-                        <div id={"quote-text"}>{quote.quote}</div>
-                        <div id={"quote-author"}>{quote.author}</div>
+                        <div id={'quote-text-container'}>
+                            <div id={"quote-text"}>“{quote.quote}”</div>
+                            <div id={"quote-author"}>- {quote.author}</div>
+                        </div>
+                        <div onClick={() => reactSwipeEl.next()} class={"arrow-friends"} id={"flip-arrow"}><img src={leftarrow} /></div>
                     </div>
                 })}
             </ReactSwipe>
